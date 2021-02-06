@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.dashboard')
 @section('content')
     <!-- navi wrapper End -->
     <!-- top header wrapper start -->
@@ -32,7 +32,6 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12">
                     <div class="emp_dashboard_sidebar jb_cover">
-                        <img src="images/profile.jpg" class="img-responsive" alt="post_img" />
                         <div class="emp_web_profile candidate_web_profile jb_cover">
 
                             <h4>{{ Auth::user()->name }}</h4>
@@ -55,16 +54,7 @@
                                 <li><a href="/dashboard/applied"><i class="fas fa-check-square"></i>applied job</a></li>
 
                             </ul>
-                            <ul class="feedlist logout_link jb_cover">
-
-                                <li><a  href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();"><i class="fas fa-power-off"></i> log out  </a></li>
-       
-                                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-
-                            </ul>
+        
                         </div>
                     </div>
                  
@@ -75,16 +65,12 @@
                             <div class="job_listing_left_fullwidth jb_cover">
                                 <div class="row">
                                     <div class="col-lg-8 col-md-7 col-sm-12 col-12">
-                                        <div class="jp_job_post_side_img">
-                                            <img src="images/pf1.jpg" alt="post_img">
-
-                                        </div>
+                  
                                         <div class="jp_job_post_right_cont">
                                             <h4>{{ Auth::user()->name     }}</h4>
 
                                             <ul>
                                                 <li><i class="fas fa-suitcase"></i>&nbsp; {{ Auth::user()->category->name }}</li>
-                                                <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles</li>
 
                                             </ul>
                                         </div>
@@ -93,7 +79,6 @@
                                         <div class="jp_job_post_right_btn_wrapper jb_cover">
                                             <div class="header_btn search_btn jb_cover">
 
-                                                <a href="#">view profile</a>
                                             </div>
                                         </div>
 

@@ -32,7 +32,7 @@
 
                         <h3>contact with us</h3>
 
-                        <p>Your next level Product developemnt company assets</p>
+             <!--           <p>Your next level Product developemnt company assets</p> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -42,9 +42,10 @@
                           <i class="fas fa-phone"></i>
                         </div>
                        
-                        <p>+1800-148-423
+                        <p>+966 11 2015533
 
-                            <br> +9175-148-124</p>
+
+                          </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -54,8 +55,7 @@
                            <i class="fas fa-envelope"></i>
                         </div>
                        
-                        <p><a href="#">jbdesks@example.com </a>
-                                        <br><a href="#">support@example.com</a></p>
+                        <p><a href="#">info@glowork.net</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
@@ -66,9 +66,8 @@
 						     <i class="fas fa-map-marker-alt"></i>
                         </div>
                      
-                        <p>51-Maxico ,canada
-
-                            <br> 52B-melbourne,UK</p>
+                        <p>Riyadh Gallery Mall,
+GNo.A1-4thFloor-Office 410</p>
                     </div>
                 </div>
             </div>

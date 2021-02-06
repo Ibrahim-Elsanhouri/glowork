@@ -38,7 +38,7 @@ body, html {
     transition: all 0.5s;
 }
 a {
-	color: #ff3366;
+	color: #e70094;
 	text-decoration: none;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -49,7 +49,7 @@ a {
 a:hover, a:focus {
 	text-decoration: none;
 	outline: none;
-	color:#ff3366;
+	color:#e70094;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -134,7 +134,7 @@ a:hover {
     position: absolute;
     height: 50%;
     width: 100%;
-    background-color: #ff3366;	
+    background-color: #e70094;	
     -webkit-transition: .7s all ease;
     -o-transition: .7s all ease;
     transition: .7s all ease;
@@ -218,7 +218,7 @@ a:hover {
   transform: scale(1);
   transition: transform .35s ease-out;
   z-index: 1011;
-  border:1px solid #ff3366;
+  border:1px solid #e70094;
 }
 @supports not (mix-blend-mode: multiply) {
   .cursor {
@@ -303,7 +303,7 @@ a:hover {
 .header_btn li:last-child a{
   width:140px;
   height:50px;
-  background:#ff3366;
+  background:#e70094;
   float:left;
   text-align:center;
   cursor:pointer;
@@ -331,7 +331,7 @@ a:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 1px solid #ff3366;
+	border: 1px solid #e70094;
 	z-index: -1;
 	border-radius: inherit;
 	opacity: 0;
@@ -344,7 +344,7 @@ a:hover {
 }
 .header_btn li:last-child a:hover{
 	background-color:transparent;
-	color: #ff3366;
+	color: #e70094;
 	   -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -389,7 +389,7 @@ a:hover {
     transition: all 0.6s;
 }
 .header_btn li:first-child a i{
-	color:#ff3366;
+	color:#e70094;
 	 -moz-transition: all 0.6s;
     transition: all 0.6s;
 }
@@ -400,8 +400,8 @@ a:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border:1px solid #ff3366;
-	background:#ff3366;
+	border:1px solid #e70094;
+	background:#e70094;
 	z-index: -1;
 	border-radius: inherit;
 	opacity: 0;
@@ -502,7 +502,7 @@ a:hover {
     display: inline-block;
 }
 .site-button{
-    color: #ff3366;
+    color: #e70094;
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -523,7 +523,7 @@ a:hover {
 .site-button:focus,
 .active > .site-button {
     background-color: transparent;
-    color: #ff3366;
+    color: #e70094;
 }
 .cp_logo_wrapper{
 	float:left;
@@ -578,7 +578,7 @@ a:hover {
     padding: 40px 23px 39px 23px;
 }
 .mainmenu ul li a i{
-	color: #ff3366;
+	color: #e70094;
     margin-right: 10px;
     font-size: 7px;
     position: relative;
@@ -596,7 +596,7 @@ a:hover {
 .mainmenu ul li .gc_main_navigation:before, .mainmenu ul li.active > .gc_main_navigation:before {
 	position: absolute;
     content: '';
-    background: #ff3366;
+    background: #e70094;
     width: 0;
     height: 3px;
     left: 0px;
@@ -620,12 +620,12 @@ a:hover {
 }
 .active_class{
 	position:relative;
-	color:#ff3366 !important;
+	color:#e70094 !important;
 }
 .active_class:before {
 	position: absolute;
     content: '';
-    background: #ff3366;
+    background: #e70094;
     width: 60px !important;
     height: 3px;
     left: 0px;
@@ -660,7 +660,7 @@ a:hover {
 .mainmenu ul li:hover .gc_main_navigation,
  .mainmenu ul li.active > .gc_main_navigation {
     opacity: 1;
-	color:#ff3366 !important;
+	color:#e70094 !important;
 }
 .mainmenu ul li:hover .gc_main_navigation:before,
  .mainmenu ul li.active > .gc_main_navigation:before {
@@ -708,7 +708,7 @@ a:hover {
     opacity: 0;
 	border-radius:0;
 	border:1px solid #e2e2e2;
-	border-top:3px solid #ff3366;
+	border-top:3px solid #e70094;
 	background:#fff;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     visibility: hidden;
@@ -899,7 +899,7 @@ a:hover {
 	background:#fff;
 	border:1px solid #e2e2e2;
 	border-right:0;
-	border-top:2px solid #ff3366;
+	border-top:2px solid #e70094;
 	-ms-box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.05);
@@ -941,7 +941,7 @@ a:hover {
 }
 .jen_tabs_conent_list li a:hover{
 	color:#fff;
-	background:#ff3366;
+	background:#e70094;
 }
 .jen_tabs_conent_list li a:hover i{
 	color:#fff;
@@ -993,11 +993,11 @@ a:hover {
     padding-bottom: 20px;
 }
 .active{
-	color:#ff3366 !important;
+	color:#e70094 !important;
 }
 .parent a:hover{
 	color:#fff;
-	background:#ff3366;
+	background:#e70094;
 }
 .parent a:hover i{
 	color:#fff;
@@ -1005,7 +1005,7 @@ a:hover {
 .jen_tabs_conent_list h1{
 	font-size:16px;
 	text-transform:capitalize;
-	color:#ff3366;
+	color:#e70094;
 	font-weight:400;
 	border:0;
 	padding:30px;
@@ -1078,7 +1078,7 @@ a:hover {
 }
 .luca_profile_wrapper p a{
 	font-size:14px;
-	color:#ff3366;
+	color:#e70094;
 }
 .open_job_text h3 a{
 	font-size:14px !important;
@@ -1090,7 +1090,7 @@ a:hover {
 }
 .open_job_text p{
 	font-size:14px;
-	color:#ff3366;
+	color:#e70094;
 }
 .candidate_width{
 	float:left;
@@ -1124,7 +1124,7 @@ a:hover {
   -moz-border-radius: 0; 
    border-radius: 0; 
 	border:1px solid #e2e2e2;
-	border-top:2px solid #ff3366;
+	border-top:2px solid #e70094;
 	-ms-box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     -moz-box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     -webkit-box-shadow: 0 4px 15px rgba(0,0,0,0.05);
@@ -1144,17 +1144,17 @@ a:hover {
 }
 .jb_profile_box .list li a:hover{
 	color:#fff;
-	background:#ff3366;
+	background:#e70094;
 }
 .jb_profile_box .list li a i{
 	margin-right:8px;
-	color: #ff3366;
+	color: #e70094;
 }
 .view_all_job a{
 	text-transform:capitalize;
 	font-weight:400;
 	font-size:16px;
-	color:#ff3366 !important;
+	color:#e70094 !important;
 	padding-top:10px;
 }
 .luca_profile_wrapper h1 a{
@@ -1202,7 +1202,7 @@ a:hover {
 .search_btn  a{
   width:180px;
   height:50px;
-  background:#ff3366;
+  background:#e70094;
   float:left;
   text-align:center;
   cursor:pointer;
@@ -1229,7 +1229,7 @@ a:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 1px solid #ff3366;
+	border: 1px solid #e70094;
 	border-radius: inherit;
 	opacity: 0;
 	-webkit-transform: scale3d(0.6, 0.6, 1);
@@ -1241,7 +1241,7 @@ a:hover {
 }
 .search_btn a:hover{
 	background-color:transparent;
-	color: #ff3366;
+	color: #e70094;
 	   -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -1283,7 +1283,7 @@ a:hover {
 }
 .emp_web_profile p{
 	text-transform:capitalize;
-	color:#ff3366;
+	color:#e70094;
 	padding-bottom:25px;
 }
 .skills span {
@@ -1308,7 +1308,7 @@ a:hover {
     left: 0;
     width: 0;
     height: 5px;
-    background: #ff3366;
+    background: #e70094;
     -webkit-transition: all 1s;
     transition: all 1s;
 }
@@ -1347,7 +1347,7 @@ a:hover {
 }
 .feedlist li a:hover, .feedlist li .link_active{
 	background:#f8f8f8;
-	border-left:3px solid #ff3366;
+	border-left:3px solid #e70094;
 }
 .feedlist{
 	padding-bottom:20px;
@@ -1355,7 +1355,7 @@ a:hover {
 }
 .feedlist li a i{
 	margin-right:15px;
-	color:#ff3366;
+	color:#e70094;
 	 transition: all 0.3s ease;
 }
 .logout_link{
@@ -1385,7 +1385,7 @@ a:hover {
 	line-height:20px;
 }
 .job_listing_left_fullwidth:hover .jp_job_post_right_cont h4 a, .jp_job_post_right_cont li i{
-	color:#ff3366;
+	color:#e70094;
 }
 .jp_job_post_right_cont li{
 	margin-right:20px;
@@ -1439,7 +1439,7 @@ a:hover {
 }
 .job_filter_sidebar_heading{
 	padding:18px 25px;
-	background:#ff3366;
+	background:#e70094;
 }
 .job_overview_header{
 	padding:25px;
@@ -1584,8 +1584,8 @@ a:hover {
 	transition: all 0.5s;
 }
 .jp_listing_left_bottom_sidebar_social_wrapper li a:hover{
-	background:#ff3366; 
-	border:1px solid #ff3366;
+	background:#e70094; 
+	border:1px solid #e70094;
 }
 .jp_listing_left_bottom_sidebar_social_wrapper li a:hover i{
 	color:#fff;
@@ -1620,7 +1620,7 @@ a:hover {
 .activity_app{
 	float:left;
 	width:20px;
-	color:#ff3366;
+	color:#e70094;
 }
 .activity_logos{
 	float:left;
@@ -1634,7 +1634,7 @@ a:hover {
 }
 /***-----footer wrapper css------*****/
 .footer {
-    background: #303d59;
+    background: #e70094;
     padding-top: 80px;
     padding-bottom: 80px;
     text-transform: capitalize;
@@ -1647,7 +1647,7 @@ a:hover {
 }
 .footer_first_contact li i:before {
     float: left;
-    color: #ff3366;
+    color: #e70094;
 	font-size:26px;
 	width:20px;
     line-height: 40px;
@@ -1677,7 +1677,7 @@ a:hover {
 	padding-bottom:35px;
 }
 .footer ul li a:hover{
-	color:#ff3366;
+	color:#e70094;
 }
 .icon_list_news{
 	margin-top:20px;
@@ -1698,7 +1698,7 @@ a:hover {
 	border-radius:100px;
 }
 .icon_list_news li a:hover{
-	background:#ff3366;
+	background:#e70094;
 }
 .icon_list_news li a i{
 	color:#cccccc;
@@ -1718,7 +1718,7 @@ a:hover {
 	font-size: 6px;
     position: relative;
     top: -2px;
-	color:#ff3366;
+	color:#e70094;
 }
 .copyright_left{
 	padding-left:10px;
@@ -1735,7 +1735,7 @@ a:hover {
 	 color: rgba(255, 255, 255, 0.45);
 }
 .copyright_left a:hover{
-	color:#ff3366;
+	color:#e70094;
 }
 .copyright_left{
 	padding-top:30px;
@@ -1823,10 +1823,10 @@ a:hover {
 	width:100%;
 	padding-top: 30px;
 	padding-bottom:33px;
-	background: rgb(209,72,127);
-    background: -moz-linear-gradient(45deg, rgba(209,72,127,1) 10%, rgba(248,54,106,1) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(209,72,127,1) 10%, rgba(248,54,106,1) 100%);
-    background: linear-gradient(45deg, rgba(209,72,127,1) 10%, rgba(248,54,106,1) 100%);
+	background: rgb(231, 0, 148);
+    background: -moz-linear-gradient(45deg, rgb(231, 0, 148)    10%, rgb(231, 0, 148)    100%);
+    background: -webkit-linear-gradient(45deg, rgb(231, 0, 148)    10%, rgb(231, 0, 148)    100%);
+    background: linear-gradient(45deg, rgb(231, 0, 148)    10%, rgb(231, 0, 148)    100%);
 }
 .page_header {
 	padding-bottom: 0;
@@ -1880,7 +1880,7 @@ a:hover {
 	width:170px;
 	height:40px !important;
 	line-height:40px;
-	background: #ff3366;
+	background: #e70094;
     color: #fff;
 	-webkit-border-radius: 0; 
   -moz-border-radius: 0; 
@@ -2023,7 +2023,7 @@ a:hover {
   width: 13px;
   height: 13px;
   background: #fff;
-  border: 1px solid #ff3366;
+  border: 1px solid #e70094;
 }
 .login_remember_box{
 	padding-top:30px;
@@ -2041,7 +2041,7 @@ a:hover {
   top: 0;
   width: 5px;
   height: 10px;
-  border: solid #ff3366;
+  border: solid #e70094;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
@@ -2062,7 +2062,7 @@ a:hover {
     width: 30px;
     height: 30px;
     line-height: 30px;
-    background: #ff3366;
+    background: #e70094;
    	-webkit-border-radius: 100px; 
   -moz-border-radius: 100px; 
    border-radius: 100px; 
@@ -2087,7 +2087,7 @@ a:hover {
 .delete_popup h1 i{
 	margin-right:5px;
 	font-weight:400;
-	color:#ff3366;
+	color:#e70094;
 }
 .delett_cntn{
 	padding:40px;
@@ -2231,10 +2231,10 @@ a:hover {
 	color:#797979;
 }
 .job_list_next p a, .job_list p i, .job_list_next ul li a:hover{
-	color:#ff3366;
+	color:#e70094;
 }
 .manage_jobs_wrapper{
-	background:#ff3366;
+	background:#e70094;
 	padding:25px;
 	margin-bottom:20px;
 }
@@ -2263,7 +2263,7 @@ a:hover {
 	color:#e8aa3e;
 }
 .job_list_next .ex{
-	color:#ff3366;
+	color:#e70094;
 }
 .blog_pagination_section{
 	padding-top:30px;
@@ -2294,15 +2294,15 @@ a:hover {
    font-size:16px;
 }
 .blog_pagination_section ul li a:hover{
-    background: #ff3366;
+    background: #e70094;
     color: #fff;
-    border: 1px solid #ff3366;
+    border: 1px solid #e70094;
 }
 .blog_pagination_section .next:hover i:before, .blog_pagination_section .prev:hover i:before {
 	color:#fff;
 } 
 .blog_pagination_section .third_pagger a {
-    background: #ff3366;
+    background: #e70094;
     color: #fff;
 }
 /***------applications wrapper css----***/
@@ -2332,7 +2332,7 @@ a:hover {
 	text-transform:capitalize;
 }
 .recent_cntnt li i {
-    color: #ff3366;
+    color: #e70094;
 }
 .download_btn_wrapper li:first-child a{
 	height:45px;
@@ -2366,7 +2366,7 @@ a:hover {
 }
 .blog_category_link li i {
     padding-right: 5px;
-    color: #ff3366;
+    color: #e70094;
 }
 .blog_category_link li{
 	margin-bottom:12px;
@@ -2377,7 +2377,7 @@ a:hover {
 	text-transform:capitalize;
 }
 .blog_category_link li a:hover{
-	color:#ff3366;
+	color:#e70094;
 }
 .wrapper {
 	position:relative;
@@ -2463,13 +2463,13 @@ a:hover {
 }
 .jb_btm_keyword li i {
     padding-right: 5px;
-    color: #ff3366;
+    color: #e70094;
 }
 .jb_btm_keyword li a{
 	color:#797979;
 }
 .jb_btm_keyword li a:hover {
-   color:#ff3366;
+   color:#e70094;
 }
 .map_wrapper #map{
 	float:left;
@@ -2499,7 +2499,7 @@ a:hover {
 	padding-bottom:8px;
 }
 .education_board ul li:last-child a{
-	color:#ff3366;
+	color:#e70094;
 }
 .education_board li{
 	text-transform:capitalize;
@@ -2522,7 +2522,7 @@ a:hover {
 }
 .speical_qualification_wrapper li i{
 	margin-right:15px;
-	color:#ff3366;
+	color:#e70094;
 }
 /***---favourite jobs wrapper css---****/
 .jb_job_post_side_img{
@@ -2553,7 +2553,7 @@ a:hover {
 	line-height:20px;
 }
 .jb_listing_left_fullwidth:hover .jb_job_post_right_cont h4 a{
-	color:#ff3366;
+	color:#e70094;
 }
 .jb_job_post_right_cont li{
 	margin-left:20px;
@@ -2565,7 +2565,7 @@ a:hover {
 	width:100%;
 }
 .jb_job_post_right_cont li i{
-	color:#ff3366;
+	color:#e70094;
 	float:left;
 	line-height:30px;
 }
@@ -2611,8 +2611,8 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 1px solid #ff3366;
-    background: #ff3366;
+    border: 1px solid #e70094;
+    background: #e70094;
     z-index: -1;
     border-radius: inherit;
     opacity: 0;
@@ -2677,7 +2677,7 @@ a:hover {
 .jb_job_post_right_btn_wrapper li:last-child a{
 	width: 100px;
     height: 35px;
-    background: #ff3366;
+    background: #e70094;
     float: left;
     text-align: center;
     cursor: pointer;
@@ -2704,7 +2704,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 1px solid #ff3366;
+    border: 1px solid #e70094;
     z-index: -1;
     border-radius: inherit;
     opacity: 0;
@@ -2717,7 +2717,7 @@ a:hover {
 }
 .jb_job_post_right_btn_wrapper li:last-child a:hover {
     background-color: transparent;
-    color: #ff3366;
+    color: #e70094;
     -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -2732,7 +2732,7 @@ a:hover {
 	float:left;
 	font-size:16px;
 	text-align:center;
-	background:#ff3366;
+	background:#e70094;
 }
 .apply_job_popup .modal-dialog {
     top: 10%;
@@ -2751,7 +2751,7 @@ a:hover {
     width: 30px;
     height: 30px;
     line-height: 30px;
-    background: #ff3366;
+    background: #e70094;
    	-webkit-border-radius: 100px; 
   -moz-border-radius: 100px; 
    border-radius: 100px; 
@@ -2881,10 +2881,10 @@ a:hover {
 }
 .main_pdet{
 	position:relative;
-	background: rgb(209,72,127);
-	background: -moz-linear-gradient(45deg, rgba(209,72,127,1) 20%, rgba(248,54,106,1) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(209,72,127,1) 20%, rgba(248,54,106,1) 100%);
-	background: linear-gradient(45deg, rgba(209,72,127,1) 20%, rgba(248,54,106,1) 100%);
+	background: rgb(231, 0, 148)    ;
+	background: -moz-linear-gradient(45deg, rgb(231, 0, 148)    20%, rgb(231, 0, 148)    100%);
+    background: -webkit-linear-gradient(45deg,rgb(231, 0, 148) 20%, rgb(231, 0, 148)    100%);
+	background: linear-gradient(45deg, rgb(231, 0, 148)    20%, rgb(231, 0, 148)    100%);
 	padding:50px 40px;
 }
 .main_pdet:before {
@@ -2952,9 +2952,9 @@ a:hover {
     left: 8px;
 }
 .pricing_box_wrapper:hover .price_btn{
-	background:#ff3366;
+	background:#e70094;
 	color:#fff;
-	border:1px solid #ff3366;
+	border:1px solid #e70094;
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-ms-transition: all .5s;
@@ -2986,7 +2986,7 @@ a:hover {
    position: absolute;
    top: 5px;
    left: 5px;
-   background: #ff3366;
+   background: #e70094;
    cursor: pointer;
    -webkit-transition: all .6s ease;
    -o-transition: all .6s ease;
@@ -3045,7 +3045,7 @@ a:hover {
     top: 25px;
     right: 20px;
     padding: 0;
-    color: #ff3366;
+    color: #e70094;
     font-size: 14px;
 }
 .message-lists {
@@ -3154,7 +3154,7 @@ a:hover {
 .message-box .dashboard-conversation .conversation.out .send-time {
    float:right;}
 .message-box .dashboard-conversation .conversation.in .message {
-  background: #ff3366;
+  background: #e70094;
   color: #ffffff; }
 .message-box .dashboard-conversation .conversation .avater {
   height: 50px;
@@ -3216,13 +3216,13 @@ a:hover {
    resize: none; 
 }
 .conversation-write-wrap form .emoji {
-   color: #ff3366;
+   color: #e70094;
 }
 .conversation-write-wrap form .send-message {
    border: 0;
    padding:0;
    background:transparent;
-   color: #ff3366;
+   color: #e70094;
    cursor: pointer;
 }
 .send-file,
@@ -3270,7 +3270,7 @@ a:hover {
 .send-file i, .send-image i{
 	font-weight:400;
 	font-size:18px;
-	color: #ff3366;
+	color: #e70094;
 }
 .drop .dropdown-menu{
 	left:auto;
@@ -3282,7 +3282,7 @@ a:hover {
 	padding:7px 15px;
 }
 .drop .dropdown-item:focus, .drop .dropdown-item:hover {
-   color: #ff3366;
+   color: #e70094;
     text-decoration: none;
     background-color: #f8f8f8;
 }
@@ -3301,7 +3301,7 @@ a:hover {
   position: fixed;
   bottom: 25px;
   right: 35px;
-  background: #ff3366;
+  background: #e70094;
   width: 55px;
   height: 55px;  
   border-radius: 50%;
@@ -3350,7 +3350,7 @@ background:#fff;
   cursor:pointer;
 }
 .chat-box-header {
-  background: #ff3366;
+  background: #e70094;
     height: 60px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -3422,7 +3422,7 @@ background:#fff;
     box-shadow: none;
     border: none;
     border-radius: 50%;
-    color: #ff3366;
+    color: #e70094;
     width: 35px;
     height: 35px;
     font-size: 18px;
@@ -3441,7 +3441,7 @@ background:#fff;
 	background-color: #F5F5F5;
 }
 .chat-logs::-webkit-scrollbar-thumb{
-	background-color: #ff3366;
+	background-color: #e70094;
 }
 @media only screen and (max-width: 500px) {
    .chat-logs {
@@ -3485,7 +3485,7 @@ background:#fff;
 .chat-msg.self > .cm-msg-text {  
   float:right;
   margin-right:10px;
-  background: #ff3366;
+  background: #e70094;
   color:#fff;
   position:relative;
   z-index:10;

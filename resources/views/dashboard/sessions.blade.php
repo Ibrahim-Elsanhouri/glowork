@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.dashboard')
 @section('content')
 
     <div class="page_title_section">
@@ -31,7 +31,6 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12">
                     <div class="emp_dashboard_sidebar jb_cover">
-                        <img src="images/profile.jpg" class="img-responsive" alt="post_img" />
                         <div class="emp_web_profile candidate_web_profile jb_cover">
 
                             <h4>{{ Auth::user()->name }}</h4>
@@ -54,16 +53,7 @@
                                 <li><a href="/dashboard/applied" ><i class="fas fa-check-square"></i>applied job</a></li>
 
                             </ul>
-                            <ul class="feedlist logout_link jb_cover">
-
-                                <li><a  href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();"><i class="fas fa-power-off"></i> log out  </a></li>
-       
-                                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-
-                            </ul>
+                  
                         </div>
                     </div>
                     <div class="modal fade delete_popup" id="myModal" role="dialog">
@@ -110,7 +100,7 @@
                                     <div class="manage_jobs_wrapper jb_cover">
                                         <div class="job_list mange_list applications_recent">
 
-                                            <h6>{{ Auth::user()->jobs()->count() }} applied jobs</h6>
+                                            <h6>{{ Auth::user()->sessions()->count() }} Training Sessions</h6>
 
                                         </div>
                                     </div>

@@ -33,9 +33,7 @@
 			$this->col[] = ["label"=>"Title","name"=>"titles_id","join"=>"titles,name"];
 			$this->col[] = ["label"=>"Company","name"=>"companies_id","join"=>"companies,name"];
 			$this->col[] = ["label"=>"City","name"=>"cities_id","join"=>"cities,name"];
-			$this->col[] = ["label"=>"Status","name"=>"status"
-		];
-
+			$this->col[] = ["label"=>"Status","name"=>"status"];
 			# END COLUMNS DO NOT REMOVE THIS LINE
 
 			# START FORM DO NOT REMOVE THIS LINE
@@ -49,10 +47,8 @@
 			$this->form[] = ['label'=>'Nationality','name'=>'nationality','type'=>'select','validation'=>'required|min:1|max:255','width'=>'col-sm-10','dataenum'=>'Saudi Only;Saudi & Non-Saudi'];
 			$this->form[] = ['label'=>'Code','name'=>'code','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Requirements','name'=>'requirements','type'=>'wysiwyg','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
-			$this->form[] = ['label'=>'Min Salary','name'=>'min_salary','type'=>'number','validation'=>'required|integer|min:0','width'=>'col-sm-10'];
-			$this->form[] = ['label'=>'Max Salary','name'=>'max_salary','type'=>'number','validation'=>'required|integer|min:0','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Experience','name'=>'experience','type'=>'number','validation'=>'required|integer|min:0','width'=>'col-sm-10'];
-			$this->form[] = ['label'=>'Image','name'=>'image','type'=>'upload','validation'=>'required|image|max:3000','width'=>'col-sm-10','help'=>'File types support : JPG, JPEG, PNG, GIF, BMP'];
+			$this->form[] = ['label'=>'Image','name'=>'image','type'=>'upload','validation'=>'required|image|max:3000','width'=>'col-sm-10'];
 			# END FORM DO NOT REMOVE THIS LINE
 
 			# OLD START FORM

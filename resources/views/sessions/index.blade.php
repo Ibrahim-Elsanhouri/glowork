@@ -70,7 +70,7 @@
                                                         <h4><a href="{{ route('session.show' , $session->id) }}">{{ $session->name }}</a></h4>
 
                                                         <ul>
-                                                            <li><i class="flaticon-cash"></i>&nbsp; {{ $session->price }} SR</li>
+                                                         <!--   <li><i class="flaticon-cash"></i>&nbsp; {{ $session->price }} SR</li> -->
                                                             <li><i class="fa fa-user"></i>&nbsp;Instructor : {{ $session->instructor->name }}</li>
                                             <li><i class="fa fa-calendar"></i>&nbsp;Time : {{ $session->start_time }}</li>
 

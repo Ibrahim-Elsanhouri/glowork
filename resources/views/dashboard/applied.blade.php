@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.dashboard')
 @section('content')
 
     <div class="page_title_section">
@@ -54,16 +54,7 @@
                                 <li><a href="/dashboard/applied" class="link_active"><i class="fas fa-check-square"></i>applied job</a></li>
 
                             </ul>
-                            <ul class="feedlist logout_link jb_cover">
-
-                                <li><a  href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();"><i class="fas fa-power-off"></i> log out  </a></li>
-       
-                                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-
-                            </ul>
+                       
                         </div>
                     </div>
                     <div class="modal fade delete_popup" id="myModal" role="dialog">

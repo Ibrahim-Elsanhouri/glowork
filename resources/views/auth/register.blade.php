@@ -63,6 +63,18 @@
                                 @enderror
                                 <i class="fas fa-user"></i>
                             </div>
+                             <div class="form-group icon_form comments_form">
+
+                                <input type="text" class="form-control require @error('identified') is-invalid @enderror" name="identified" id="identified" placeholder="National ID or Iqama*" value="{{ old('identified') }}" required autocomplete="identified">
+
+                                @error('identified')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+<i class="far fa-id-card"></i>
+
+                            </div>
                             <div class="form-group icon_form comments_form">
 
                                 <input type="email" class="form-control require @error('email') is-invalid @enderror" name="email" id="email" placeholder="Email Address*" value="{{ old('email') }}" required autocomplete="email">
@@ -97,6 +109,12 @@
                                 <i class="fas fa-phone"></i>
                             </div>
 
+
+                             <div class="form-group icon_form comments_form">
+
+                                <input type="text" class="form-control require" name="skills" placeholder="Area of expertise skills">
+                               </i><i class="fab fa-angellist"></i>
+                            </div>
                               <div class="form-group icon_form comments_form">
 
                                 <input type="file" class="form-control require" name="resume" placeholder="Mobile">
@@ -104,6 +122,11 @@
                             </div>
 
                             <div class="form-group icon_form comments_form">
+
+
+
+
+
 <div class="row">
 <div class="col-md-6">
    <select name="categories_id" style="width: 1000px;">
@@ -116,14 +139,61 @@
                                </select>
 </div>
 <div class="col-md-6">
-   <select name="nationality" style="width: 1000px;">
-                               <option> ---  Nationality --- </option>
-                            <option value="Saudi">Saudi</option>
-                            <option value="Non-Saudi">Non-Saudi</option>
+   <select name="qualification" style="width: 1000px;">
+                               <option> ---  Qualification --- </option>
+                            <option value="Master’s degree">Master’s degree</option>
+                            <option value="Bachelor’s degree">Bachelor’s degree</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Secondary ">Secondary </option>
+                            <option value="Average">Average</option>
+                            <option value="Ph.D.">Ph.D.</option>
 
 
                                </select>
 </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-6">
+   <select name="gyear" style="width: 1000px;">
+                               <option> ---  Graduation Yaer --- </option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+ <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+ <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="2010">2010</option>
+                               </select>
+</div>
+<div class="col-md-6">
+   <select name="experience" style="width: 1000px;">
+                               <option> --- Years of Experience --- </option>
+                            <option value="Fresher">Fresher</option>
+                            <option value="1-2 Years">1-2 Years</option>
+                            <option value="1-2 Years">1-2 Years</option>
+                            <option value="2-3 Years">2-3 Years</option>
+
+                            <option value="More than 3 Years">More than 3 Years</option>
+
+                               </select>
+</div>
+
 </div>
    
 </div>

@@ -14,6 +14,13 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/aboutus', function () {
+  return view('aboutus');
+});
+
+Route::get('/test', function () {
+  return view('test');
+});
 
 Auth::routes();
 
@@ -39,15 +46,26 @@ Route::get('/sessions/{id}', 'SessionController@show')->name('session.show');
 //session.reserve
 Route::post('/sessions/reserve', 'SessionController@reserve')->name('session.reserve');
 
+Route::get('/staff' , 'StaffController@create')->name('staff.create'); 
+Route::post('/staff' , 'StaffController@store')->name('staff.store'); 
+
 Route::middleware('auth')->prefix('dashboard')->group(function () {
   Route::get('index', 'UserController@index');
   Route::get('applied', 'UserController@applied');
   Route::get('sessions', 'UserController@sessions');
   Route::get('invoice/{id}/sessions', 'UserController@invoice');
   Route::get('edit', 'UserController@edit');
+  Route::post('update', 'UserController@update');
 
 
     }
+
+
+
+
 );
-   
+   // Events Management 
+
+
+   Route::get('/events' , 'EventController@index')->name('event.index'); 
 

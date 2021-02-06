@@ -36,7 +36,7 @@
             <div class="spinner"></div>
         </div>
     </div>
-    <div class="cursor"></div>
+  <!--  <div class="cursor"></div> -->
     <!-- Top Scroll Start --><a href="javascript:" id="return-to-top"><i class="fas fa-angle-double-up"></i></a>
     <!-- Top Scroll End -->
     <!-- cp navi wrapper Start -->
@@ -161,7 +161,7 @@
         <div class="container-fluid">
             <div class="cp_logo_wrapper">
                 <a href="/">
-                    <img src="images/glowork-logo.jpg" width="185" height="45" alt="logo">
+                    <img src="{{ asset('images/glowork-logo.jpg') }}" width="185" height="45" alt="logo">
                 </a>
             </div>
             <!-- mobile menu area start -->
@@ -224,10 +224,11 @@
                         <li class="has-mega gc_main_navigation"><a href="/" class="gc_main_navigation active_class">home</a>
              
                         </li>
-               
+                                                      <li><a href="/aboutus" class="gc_main_navigation">About Glowork</a></li>
+
                       
                         <li class="has-mega gc_main_navigation"><a href="/jobs" class="gc_main_navigation">Jobs</a>
-                            <ul class="navi_2_dropdown">
+                          <!--  <ul class="navi_2_dropdown">
                                 <li class="parent">
                                     <a href="#"><i class="fas fa-square"></i>Jobs By Category<span><i class="fas fa-chevron-right"></i>
 									</span></a>
@@ -253,9 +254,21 @@
                                     </ul>
                                 </li>
 
+                            </ul> -->
+                        </li>
+                        
+     <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">Our Services
+</a>
+                            <ul class="navi_2_dropdown">
+                            
+                                <li class="parent">
+                                    <a href="/staff"><i class="fas fa-square"></i>Hiring Staff</a>
+                                    <a href="/sessions"><i class="fas fa-square"></i>Coaching</a>
+                                     <a href="#"><i class="fas fa-square"></i>Our Events</a>
+                                </li>
+
                             </ul>
                         </li>
-                        <li><a href="/sessions" class="gc_main_navigation">Coaching</a></li>
 
                         <li><a href="/contact" class="gc_main_navigation">contact</a></li>
 
@@ -286,77 +299,172 @@
 
 
     <!-- navi wrapper End -->
-    <!-- job banner wrapper start-->
-    <div class="jb_banner_wrapper jb_cover">
-        <div class="jb_banner_left">
-            <h1>The Easy Way To Get
-Your New Job</h1>
-            <p>This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor . sollicitudin, lorem quis bibendum auctor, sem nibh id elit. </p>
-            <div class="contect_form3">
 
-                <input type="text" name="name" placeholder="Keyword e.g. (Job Title, Description, Tags)">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- slider wrapper Start -->
+    <div class="main_slider_wrapper slider-area jb_cover">
+     
+       
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+        
+            <div class="carousel-inner" role="listbox">
+             <div class="carousel-item active">
+                    <div class="carousel-captions caption-2">
+                        <div class="container">
+                            <div class="row">
+<img src="https://www.lxry.travel/images/233/8b4c570670068075fd768a633a9f6fd8.jpg" width="100%" class="img-responsive" alt="img">
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+           <div class="carousel-item">
+                    <div class="carousel-captions caption-2">
+                        <div class="container">
+                            <div class="row">
+<img src="http://glowork.net/wp-content/uploads/2020/01/Career-Counselling.png" width="100%" class="img-responsive" alt="img">
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="">
+                    </li>
+                </ol>
+                <div class="carousel-nevigation">
+                    <a class="prev" href="#carousel-example-generic" role="button" data-slide="prev"><i class="flaticon-left-arrow"></i>
+					</a>
+                    <a class="next" href="#carousel-example-generic" role="button" data-slide="next"><i class="flaticon-right-arrow"></i>
+					</a>
+                </div>
             </div>
-            <div class="select_box">
-
-                <i class="flaticon-map"></i>
-                <select>
-                    <option>select location</option>
-                    <option>california</option>
-                    <option>los velas</option>
-                    <option>noida</option>
-                    <option>chicago</option>
-
-                </select>
-
-            </div>
-            <div class="select_box select_box_2">
-
-                <i class="flaticon-squares-gallery-grid-layout-interface-symbol"></i>
-                <select>
-                    <option>category</option>
-                    <option>real estate</option>
-                    <option>electronics</option>
-                    <option>marketing</option>
-                    <option>education</option>
-
-                </select>
-
-            </div>
-            <div class="select_box">
-
-                <i class="flaticon-statistics"></i>
-                <select>
-                    <option>experience</option>
-                    <option>5 years</option>
-                    <option>3 years</option>
-                    <option>2 years</option>
-                    <option>fresher</option>
-
-                </select>
-
-            </div>
-            <div class="header_btn search_btn jb_cover">
-
-                <a href="#"><i class="fas fa-search"></i> search</a>
-
-            </div>
-
-            <div class="jb_btm_keyword jb_cover">
-                <ul>
-                    <li><i class="flaticon-tag"></i> Trending Keywords :</li>
-                    <li><a href="#">ui designer,</a></li>
-                    <li><a href="#">developer,</a></li>
-                    <li><a href="#">senior</a></li>
-                    <li><a href="#">it company,</a></li>
-                    <li><a href="#">design,</a></li>
-                    <li><a href="#">call center</a></li>
-                </ul>
-            </div>
-
         </div>
-        <div class="jb_banner_right d-none d-sm-none d-md-none d-lg-none d-xl-block">
-        </div>
+      
     </div>
+
+    <!-- slider wrapper End -->
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- job banner wrapper start-->
+    
 
     <!-- job banner wrapper end-->
     <!-- job list wrapper start-->
@@ -366,15 +474,15 @@ Your New Job</h1>
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                     <div class="jb_top_jobs_category jb_cover">
 
-                        <h3><a href="#">laravel</a></h3>
-                        <img src="images/jb1.png" alt="img">
+                        <h3><a href="#">HR</a></h3>
+                        <img src="images/s1.png" alt="img">
 
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                     <div class="jb_top_jobs_category jb_cover">
 
-                        <h3><a href="#">Wordpress</a></h3>
+                        <h3><a href="#">Software</a></h3>
                         <img src="images/jb2.png" alt="img">
 
                     </div>
@@ -382,15 +490,15 @@ Your New Job</h1>
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                     <div class="jb_top_jobs_category jb_cover">
 
-                        <h3><a href="#">AngularJS</a></h3>
-                        <img src="images/jb3.png" alt="img">
+                        <h3><a href="#">Accounting</a></h3>
+                        <img src="images/s5.png" alt="img">
 
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                     <div class="jb_top_jobs_category jb_cover">
 
-                        <h3><a href="#">node js</a></h3>
+                        <h3><a href="#">Education</a></h3>
                         <img src="images/jb4.png" alt="img">
 
                     </div>
@@ -398,7 +506,7 @@ Your New Job</h1>
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                     <div class="jb_top_jobs_category jb_cover">
 
-                        <h3><a href="#">1onic</a></h3>
+                        <h3><a href="#">Medical</a></h3>
                         <img src="images/jb5.png" alt="img">
 
                     </div>
@@ -406,8 +514,8 @@ Your New Job</h1>
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                     <div class="jb_top_jobs_category">
 
-                        <h3><a href="#">node js</a></h3>
-                        <img src="images/jb4.png" alt="img">
+                        <h3><a href="#">Operation</a></h3>
+                        <img src="images/s6.png" alt="img">
 
                     </div>
                 </div>
@@ -422,58 +530,48 @@ Your New Job</h1>
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
                     <div class="jb_heading_wraper">
 
-                        <h3>Browse Jobs By Category</h3>
+                        <h3>Services that Impact</h3>
 
-                        <p>Your next level Product developemnt company assets</p>
+                      <!--  <p>Your next level Product developemnt company assets</p> -->
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+               <!--      <div class="col-lg-4 col-md-6 col-sm-12">
+
+               <div class="jb_browse_category jb_cover">
+                        <a href="#">
+                            <div class="hover-block"></div>
+
+                            <i class="flaticon-laptop"></i>
+                            <h3>Virtual Office</h3>
+                            <p>Distance work software solution</p>
+                        </a>
+                    </div> 
+                </div> -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
 
                     <div class="jb_browse_category jb_cover">
-                        <a href="job_listing_list_left_filter.html">
+                        <a href="#">
                             <div class="hover-block"></div>
 
                             <i class="flaticon-code"></i>
-                            <h3>developer</h3>
-                            <p>(1450 jobs)</p>
+                            <h3>SMS Service</h3>
+                            <p>SMS Notifications for jobseekers</p>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg- col-md-6 col-sm-12">
 
                     <div class="jb_browse_category jb_cover">
-                        <a href="job_listing_list_left_filter.html">
-                            <div class="hover-block"></div>
-                            <i class="flaticon-laptop"></i>
-                            <h3>technology</h3>
-                            <p>(4525 jobs)</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-
-                    <div class="jb_browse_category jb_cover">
-                        <a href="job_listing_list_left_filter.html">
+                        <a href="#">
                             <div class="hover-block"></div>
                             <i class="flaticon-bar-chart"></i>
-                            <h3>accounting</h3>
-                            <p>(214 jobs)</p>
+                            <h3>Glowork Career Fair</h3>
+                            <p>career fair that is designed to empower women</p>
 
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-
-                    <div class="jb_browse_category jb_cover">
-                        <a href="job_listing_list_left_filter.html">
-                            <div class="hover-block"></div>
-                            <i class="flaticon-doctor"></i>
-                            <h3>medical</h3>
-                            <p>(4572 jobs)</p>
-
-                        </a>
-                    </div>
-                </div>
+               
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 pd5">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12">
@@ -482,8 +580,8 @@ Your New Job</h1>
                                 <a href="job_listing_list_left_filter.html">
                                     <div class="hover-block"></div>
                                     <i class="flaticon-city-hall"></i>
-                                    <h3>goverment</h3>
-                                    <p>(2414 jobs)</p>
+                                    <h3>HR Consultancy</h3>
+                                    <p>confront complex business challenges.</p>
 
                                 </a>
                             </div>
@@ -494,8 +592,8 @@ Your New Job</h1>
                                 <a href="job_listing_list_left_filter.html">
                                     <div class="hover-block"></div>
                                     <i class="flaticon-newspaper"></i>
-                                    <h3>media & news</h3>
-                                    <p>(2142 jobs)</p>
+                                    <h3>Recruitment</h3>
+                                    <p>provides the employer a full edged service from A-Z </p>
 
                                 </a>
                             </div>
@@ -505,9 +603,11 @@ Your New Job</h1>
                             <div class="jb_browse_category jb_cover">
                                 <a href="job_listing_list_left_filter.html">
                                     <div class="hover-block"></div>
-                                    <i class="flaticon-lunch"></i>
-                                    <h3>restaurents</h3>
-                                    <p>(2342 jobs)</p>
+                            <i class="flaticon-bar-chart"></i>
+                                    <h3>Social Service
+</h3>
+                                    <p>Glowork provides career advisory services.
+</p>
 
                                 </a>
                             </div>
@@ -516,7 +616,6 @@ Your New Job</h1>
                 </div>
                 <div class="header_btn search_btn load_btn jb_cover">
 
-                    <a href="#">load more</a>
 
                 </div>
             </div>
@@ -530,31 +629,49 @@ Your New Job</h1>
                 <div class="col-lg-6 col-md-12 col-12 col-sm-12">
                     <div class="jb_heading_wraper left_jb_jeading">
 
-                        <h3>Grow next level business</h3>
+                        <h3>Our Story</h3>
 
-                        <p>#1 MOST trusted digital marketplace company</p>
+                        <p>#1 Glowork Recuriment  Software Platform</p>
                     </div>
                     <div class="grow_next_text jb_cover">
-                        <p>What do all consultants need? In short, trust. This is achieved with professional presentation and the ability to communicate clearly with and potential clients. Whether you are an accountant.
+                        <p>Glowork was formed in 2011 by three young Saudi entrepreneurs. Their aim was to increase diversity in the Saudi workforce by helping women find employment opportunities.
+
+Glowork then became the first dedicated organization in Saudi Arabia that links female jobseekers and employers.
+
+In 2012 Glowork became a private public partnership with the Ministry of Labor. Due to that, it has acquired global recognition and received endorsement Ministry of Labor.
+
+The vision is to expand in the Middle East and serve based on the requirements in each country.
                             <br>
-                            <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusd tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div class="header_btn search_btn jb_cover">
 
-                            <a href="#">discover more</a>
+                            <a href="/aboutus">Read more</a>
 
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12 col-sm-12">
                     <div class="grow_next_img jb_cover">
-                        <img src="images/gnxt.jpg" class="img-responsive" alt="img">
+                        <img src="images/our-story-1.png" width="540" height="334" class="img-responsive" alt="img">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- grow next Wrapper end -->
-    <!-- latest job wrapper start-->
+
+ <!-- grow next Wrapper Start -->
+   
+     
+    <!-- grow next Wrapper end -->
+
+
+
+
+
+
+
+
+    <!-- latest job wrapper start
     <div class="latest_job_wrapper jb_cover">
         <div class="container">
             <div class="row">
@@ -2858,42 +2975,55 @@ Your New Job</h1>
             </div>
         </div>
     </div>
-    <!-- latest job wrapper end-->
+    latest job wrapper end-->
     <!-- counter wrapper start-->
     <div class="counter_wrapper jb_cover">
         <div class="counter_overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+
+
+      <!--          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="counter_mockup_design jb_cover">
                         <div class="animation-circle-inverse"><i></i><i></i><i></i></div>
                         <img src="images/mockup2.png" class="img-responsive" alt="img">
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                </div> -->
+
+
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="counter_right_wrapper jb_cover">
                         <h1>Some Statistical Facts</h1>
                         <div class="counter_width">
                             <div class="counter_cntnt_box">
 
-                                <div class="count-description"><span class="timer">2500</span>
-                                    <p class="con2">happy customers </p>
+                                <div class="count-description"><span class="timer">46903</span>
+                                    <p class="con2">Job seekers </p>
+                                </div>
+                            </div>
+                        </div>
+                           <div class="counter_width">
+                            <div class="counter_cntnt_box">
+
+                                <div class="count-description"><span class="timer">46903</span>
+                                    <p class="con2">We Hiring </p>
                                 </div>
                             </div>
                         </div>
                         <div class="counter_width">
                             <div class="counter_cntnt_box">
 
-                                <div class="count-description"> <span class="timer">9425</span>
-                                    <p class="con2">ticket solved</p>
+                                <div class="count-description"> <span class="timer">450</span>
+                                    <p class="con2">Companies</p>
                                 </div>
                             </div>
                         </div>
                         <div class="counter_width">
                             <div class="counter_cntnt_box">
 
-                                <div class="count-description"> <span class="timer">9</span><span>+</span>
-                                    <p class="con2">average rating</p>
+                                <div class="count-description"> <span class="timer">420</span><span>+</span>
+                                    <p class="con2">Workshops</p>
                                 </div>
                             </div>
                         </div>
@@ -2903,7 +3033,7 @@ Your New Job</h1>
         </div>
     </div>
     <!-- counter wrapper end-->
-    <!-- company Wrapper start -->
+    <!-- company Wrapper start
     <div class="top_company_wrapper jb_cover">
         <div class="container">
             <div class="row">
@@ -3000,8 +3130,8 @@ Your New Job</h1>
             </div>
         </div>
     </div>
-    <!-- top company Wrapper End -->
-    <!-- pricing plan wrapper start-->
+   top company Wrapper End -->
+    <!-- pricing plan wrapper sta
     <div class="pricing_plan_wrapper jb_cover">
         <div class="container">
             <div class="row">
@@ -3097,8 +3227,8 @@ Your New Job</h1>
             </div>
         </div>
     </div>
-    <!-- pricing plan wrapper end-->
-    <!-- job rivew wrapper start-->
+     pricing plan wrapper end-->
+    <!-- job rivew wrapper start
     <div class="job_rivew_wrapper jb_cover">
         <div class="job_rivew_img">
             <img src="images/mockup3.png" alt="img">
@@ -3147,8 +3277,8 @@ Your New Job</h1>
         </div>
     </div>
 
-    <!-- job rivew wrapper end-->
-    <!-- download app wrapper start-->
+ job rivew wrapper end-->
+    <!-- download app wrapper start
     <div class="download_wrapper jb_cover">
         <div class="counter_overlay"></div>
         <div class="container">
@@ -3175,7 +3305,7 @@ Your New Job</h1>
             </div>
         </div>
     </div>
-    <!-- download app wrapper end-->
+   download app wrapper end-->
     <!-- blog wrapper start-->
     <div class="blog_wrapper jb_cover">
         <div class="container">
@@ -3183,61 +3313,16 @@ Your New Job</h1>
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
                     <div class="jb_heading_wraper">
 
-                        <h3>from our blog</h3>
+                        <h3>Send Us</h3>
 
-                        <p>Your next level Product developemnt company assets</p>
+                        <p>Glowork </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="blog_newsleeter jb_cover">
-                        <h1>Request Call Back</h1>
-                        <p>What do all consultants need? In short trust This is achieved with professional and the ability to communicate. and the ability to communicate.</p>
-                        <div class="contect_form3 blog_letter">
-
-                            <input type="text" name="name" placeholder="how can we help ?">
-                        </div>
-                        <div class="contect_form3 blog_letter">
-
-                            <input type="text" name="name" placeholder="your name">
-                        </div>
-                        <div class="contect_form3 blog_letter">
-
-                            <input type="email" name="name" placeholder="your email">
-                        </div>
-                        <div class="header_btn search_btn submit_btn jb_cover">
-
-                            <a href="#">submit</a>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
+          
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="our_blog_content jb_cover">
-                                <div class="jb_cover">
-                                    <img src="images/blog1.jpg" class="img-responsive" alt="img">
-                                </div>
-                                <div class="blog_content jb_cover">
-                                    <p>FEb 19, 2019</p>
-                                    <h4> <a href="#">Want to Be an Ace Designer? Try
-Travelling the World</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="our_blog_content jb_cover">
-                                <div class="jb_cover">
-                                    <img src="images/blog2.jpg" class="img-responsive" alt="img">
-                                </div>
-                                <div class="blog_content jb_cover">
-                                    <p>jan 19, 2019</p>
-                                    <h4> <a href="#">Hey Seeker, It’s Time to  Try
-Travelling the World</a></h4>
-                                </div>
-                            </div>
-                        </div>
+                      
+                    
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div id="accordion" role="tablist">
                                 <h1>Frequently Asked Question?</h1>
@@ -3246,7 +3331,7 @@ Travelling the World</a></h4>
                                     <div class="card_pagee" role="tab" id="heading1">
                                         <h5 class="h5-md">
 								       	    <a class="collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
-								          		Is there any auto-renew subscription?
+								          		How can i register my account ?
 
 								        	</a>
 								     	 </h5>
@@ -3256,7 +3341,7 @@ Travelling the World</a></h4>
                                         <div class="card-body">
 
                                             <div class="card_cntnt">
-                                                <p>This is Photoshop's version of LoremProin gravida nibh vel velit auctor Ipsum. Proin gravida nibh vel velit auctor aliquet....</p>
+                                                <p>How can i register my account ........................</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3268,7 +3353,7 @@ Travelling the World</a></h4>
                                     <div class="card_pagee" role="tab" id="heading2">
                                         <h5 class="h5-md">
 								       	    <a class="collapsed" data-toggle="collapse" href="#collapsethree" role="button" aria-expanded="false" aria-controls="collapsethree">
-								          How many sites can I use my themes on?
+								          How many sites can I use ?
 
 								        	</a>
 								     	 </h5>
@@ -3283,142 +3368,105 @@ Travelling the World</a></h4>
                                         </div>
                                     </div>
 
+                                  
                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="job_newsletter_wrapper jb_cover">
-                        <div class="jb_newslwtteter_left">
-                            <h2> Looking For A Job</h2>
-                            <p>Your next level Product developemnt company assetsYour next level Product </p>
-                        </div>
-                        <div class="jb_newslwtteter_button">
-                            <div class="header_btn search_btn news_btn jb_cover">
+                                    <div id="collapsethree" class="collapse" role="tabpanel" aria-labelledby="heading2" data-parent="#accordion" style="">
+                                        <div class="card-body">
 
-                                <a href="#">submit</a>
+                                            <div class="card_cntnt">
+                                                <p>This is Photoshop's version of LoremProin gravida nibh vel velit auctor Ipsum. Proin gravida nibh vel velit auctor aliquet....</p>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
+                            
+                                    <div id="collapsethree" class="collapse" role="tabpanel" aria-labelledby="heading2" data-parent="#accordion" style="">
+                                        <div class="card-body">
+
+                                            <div class="card_cntnt">
+                                                <p>This is Photoshop's version of LoremProin gravida nibh vel velit auctor Ipsum. Proin gravida nibh vel velit auctor aliquet....</p>
+                                            </div>
+                                        </div>
+                                    </div>
                         </div>
                     </div>
                 </div>
+          
             </div>
         </div>
     </div>
     <!-- blog wrapper end-->
-    <!-- footer Wrapper Start -->
+       <!-- footer Wrapper Start -->
+  <!-- footer Wrapper Start -->
     <div class="footer jb_cover">
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6 col-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover">
-                        <a href="#"><img src="images/glowork-logo.jpg" width="225" height="105" alt="img"></a>
+                        <a href="#"><img src="{{ asset('images/glowork-logo.jpg') }}" width="225" height="105" alt="img"></a>
                         <ul class="footer_first_contact">
-                            <li><i class="flaticon-location-pointer"></i>
-                                <p>123 City Avenue, Floor 10,
-                                    <br> malbourne, Australia.
+                            <li><i class="flaticon-location-pointer" style="color:white"></i>
+                                <p>Riyadh Gallery Mall,
+                                    <br>GNo.A1-4thFloor-Office 410
                                 </p>
                             </li>
-                            <li><i class="flaticon-telephone"></i>
-                                <p>1 -234 -456 -7890
-                                    <br> 1 -234 -456 -7890</p>
+                            <li><i class="flaticon-telephone" style="color:white"></i>
+                                <p>966-11-2015533
+
+                                    <br>966-11-2014388</p>
                             </li>
-                            <li><i class="flaticon-envelope"></i><a href="#">info@Jbdesks.com </a>
-                                <br>
-                                <a href="#">support@Jbdesks.com</a>
+                            <li><i class="flaticon-envelope" style="color:white"></i><a href="#"> </a>
+                                <a href= "mailto: info@glowork.net">info@glowork.net</a>
                             </li>
 
                         </ul>
 
                         <ul class="icon_list_news jb_cover">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.facebook.com/Glowork.net"><i class="fab fa-facebook-f"></i></a></li>
                             <li>
-                                <a href="#"><i class="fab fa-twitter"></i>
+                                <a href="https://twitter.com/Glowork"><i class="fab fa-twitter"></i>
                                     </a>
                             </li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/glowork/?originalSubdomain=sa"><i class="fab fa-linkedin-in"></i></a></li>
                             <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
 
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover footer_border_displ">
                         <h5>features</h5>
                         <ul class="nav-widget">
-                            <li><a href="#"><i class="fa fa-square"></i>Job Management & Billing
+                            <li><a href="/admin"><i class="fa fa-square"></i>Admin Portal</a></li>
+
+     
+                            <li><a href="/dashboard/index"><i class="fa fa-square"></i>Client Portal
 </a></li>
 
-                            <li><a href="#"><i class="fa fa-square"></i>Time & Materials Tracking
-</a></li>
+            
 
-                            <li><a href="#"><i class="fa fa-square"></i>Standards Compliance 
-</a></li>
 
-                            <li><a href="#"><i class="fa fa-square"></i>Real Time GPS Tracking
-</a></li>
-
-                            <li><a href="#"><i class="fa fa-square"></i>Client Portal
-</a></li>
-
-                            <li><a href="#"><i class="fa fa-square"></i> Powerful Workflow</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Virtual Offices</a></li>
 
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover footer_border_displ">
                         <h5>browse</h5>
                         <ul class="nav-widget">
 
-                            <li><a href="#"><i class="fa fa-square"></i>Freelancers by Category</a></li>
+                            <li><a href="/jobs"><i class="fa fa-square"></i>browse Jobs</a></li>
 
-                            <li><a href="#"><i class="fa fa-square"></i> Freelancers in USA </a></li>
 
-                            <li><a href="#"><i class="fa fa-square"></i> Freelancers in UK</a></li>
-
-                            <li><a href="#"><i class="fa fa-square"></i> Freelancers in Canada</a></li>
-                            <li><a href="#"><i class="fa fa-square"></i> Freelancers in india</a></li>
-                            <li><a href="#"><i class="fa fa-square"></i> find jobs</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-12">
-                    <div class="footerNav jb_cover footer_border_displ">
-                        <h5>app & integration</h5>
-                        <ul class="nav-widget">
-                            <li>
-                                <a href="#"><img src="images/ft1.png" alt="img">Xero
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#"><img src="images/ft2.png" alt="img">Reckon
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#"><img src="images/ft3.png" alt="img">Flexidocs
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="images/ft4.png" alt="img">Microsoft Exchange</a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="images/ft5.png" alt="img"> Mailchimp
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="images/ft6.png" alt="img"> MYOB
-                                </a>
-                            </li>
 
                         </ul>
                     </div>
                 </div>
-                <div class="copyright_left"><i class="fa fa-copyright"></i> 2019 <a href="#">  JB desks.  </a> All Rights Reserved.
+               
+                <div class="copyright_left"><i class="fa fa-copyright"></i> 2021 <a href="#">  Glowork.  </a> All Rights Reserved.
                 </div>
 
                 <div class="clearfix"></div>
@@ -3426,6 +3474,7 @@ Travelling the World</a></h4>
             <!--/.row-->
         </div>
         <!--/.container-->
+        <!-- Waves Java script
         <div class="waveWrapper waveAnimation">
             <div class="waveWrapperInner bgTop gradient-color">
                 <div class="wave waveTop"></div>
@@ -3437,12 +3486,12 @@ Travelling the World</a></h4>
                 <div class="wave waveBottom"></div>
             </div>
         </div>
-
+-->
     </div>
 
     <!-- footer Wrapper End -->
     <!-- chat box Wrapper start -->
-    <div id="chat-circle" class="btn btn-raised">
+ <!-- <div id="chat-circle" class="btn btn-raised">
         <i class="fas fa-comment-alt"></i>
     </div>
     <div class="chat-box">
@@ -3456,7 +3505,7 @@ Travelling the World</a></h4>
             <div class="chat-logs">
 
             </div>
-            <!--chat-log -->
+            <!--chat-log
         </div>
         <div class="chat-input">
             <form>
@@ -3464,7 +3513,7 @@ Travelling the World</a></h4>
                 <button type="submit" class="chat-submit" id="chat-submit"><i class="fas fa-paper-plane"></i></button>
             </form>
         </div>
-    </div>
+    </div> --> 
     <!-- chat box Wrapper end -->
     <!--custom js files-->
     <script src="js/jquery-3.3.1.min.js"></script>

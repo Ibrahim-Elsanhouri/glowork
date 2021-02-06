@@ -16,6 +16,10 @@ class JobController extends Controller
 
     use BackendNotifications;
 
+    public function __construct(){
+        $this->middleware('auth')->only('apply'); 
+    }
+
     public function index(){
         $cities = City::all(); 
         $titles = Title::all(); 

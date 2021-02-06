@@ -30,6 +30,8 @@
         <div class="container">
 
             <div class="row">
+            <br><br>
+            @include('layouts.alerts')
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="job_filter_category_sidebar jb_cover">
                         <div class="job_filter_sidebar_heading jb_cover">
@@ -124,14 +126,19 @@
                                 </div>
                             </div>
                             <div class="header_btn search_btn news_btn overview_btn  jb_cover">
-@if($job->users->contains(Auth::user()->id))
+@if($job->users->contains(Auth::user()->id) && Auth::check() )
 
                                 <a href="#" >You Already Applied</a>
 
                             </div>
-@else
+@elseif(!$job->users->contains(Auth::user()->id) && Auth::check())
 
    <a href="#" data-toggle="modal" data-target="#myModal41">apply now </a>
+
+                            </div>
+@else 
+
+  <a href="/login">Login To Apply</a>
 
                             </div>
 @endif
