@@ -72,24 +72,12 @@
                                                         <h4><a href="{{ route('job.show' , $job->id) }}">{{ $job->title->name }}</a></h4>
 
                                                         <ul>
-                                                            <li><i class="fa fa-flag"></i>&nbsp; {{ $job->nationality }}</li>
 
-
-                            @if ($job->gender == 'Female')
-                                                            <li><i class="fa fa-female"></i></li>
-@elseif($job->gender == 'Male')
-
-                                                            <li><i class="fa fa-male"></i></li>
-
-@else 
-                                                            <li><i class="fa fa-male"></i><i class="fa fa-female"></i></li>
-
-@endif
 
 
                                                             <li><i class="flaticon-location-pointer"></i>&nbsp; {{ $job->city->name }}</li>
 
-                                                            <li><i class="fa fa-clock"></i>&nbsp;Job Nature : {{ $job->nature->name }}</li>
+                                                            <li><i class="fa fa-clock"></i>&nbsp; {{ $job->created_at->diffForHumans() }}</li>
 
                                                         </ul>
                                                     </div>

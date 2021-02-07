@@ -53,21 +53,7 @@
 
 </a></p>
                         </div>
-                        <div class="jp_first_blog_bottom_cont_wrapper jb_cover">
-                            <div class="jp_blog_bottom_left_cont">
-                                <ul>
-                                </ul>
-                            </div>
-                            <div class="jp_blog_bottom_right_cont">
-                                <p><a href="#"><i class="far fa-comment-dots"></i><span>40</span></a></p>
-                                <ul>
-                                    <li></li>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                       
                     </div>
 
 @endforeach

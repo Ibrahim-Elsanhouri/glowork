@@ -257,9 +257,9 @@ Author:
                             <ul class="navi_2_dropdown">
                             
                                 <li class="parent">
-                                    <a href="/staff"><i class="fas fa-square"></i>Hiring Staff</a>
+                                    <a href="/staff"><i class="fas fa-square"></i>Recruitment</a>
                                     <a href="/sessions"><i class="fas fa-square"></i>Coaching</a>
-                                     <a href="#"><i class="fas fa-square"></i>Our Events</a>
+                                     <a href="/events"><i class="fas fa-square"></i>Our Events</a>
                                 </li>
 
                             </ul>
@@ -294,39 +294,39 @@ Author:
   @yield('content')
 
 
-     <!-- footer Wrapper Start -->
+ 
+    <!-- footer Wrapper Start -->
     <div class="footer jb_cover">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover">
-                        <a href="#"><img src="{{ asset('images/glowork-logo.jpg') }}" width="225" height="105" alt="img"></a>
+                   <!--     <a href="#"><img src="{{ asset('images/glowork-logo.jpg') }}" width="225" height="105" alt="img"></a> -->
                         <ul class="footer_first_contact">
-                            <li><i class="flaticon-location-pointer" style="color:white"></i>
-                                <p>Riyadh Gallery Mall,
+                            <li>
+                          <!--      <i class="flaticon-location-pointer" style="color: white"></i> -->
+                          <a href="https://www.google.com/maps/place/Glowork+%7C+Brandbuzz/@24.6551959,46.718843,15z/data=!4m5!3m4!1s0x3e2f033c47513927:0x9805e62a08127499!8m2!3d24.744111!4d46.6577578" target="_blank()"> <p style="color: white">Riyadh Gallery Mall,
                                     <br>GNo.A1-4thFloor-Office 410
-                                </p>
+                                </p> </a>
                             </li>
                             <li><i class="flaticon-telephone" style="color:white"></i>
-                                <p>966-11-2015533
+                                <p style="color: white">966-11-2015533
 
                                     <br>966-11-2014388</p>
                             </li>
                             <li><i class="flaticon-envelope" style="color:white"></i><a href="#"> </a>
-                                <a href= "mailto: info@glowork.net">info@glowork.net</a>
+                                <a style="color: white" href= "mailto: info@glowork.net">info@glowork.net</a>
                             </li>
 
                         </ul>
 
                         <ul class="icon_list_news jb_cover">
-                            <li><a href="https://www.facebook.com/Glowork.net"><i class="fab fa-facebook-f"></i></a></li>
                             <li>
-                                <a href="https://twitter.com/Glowork"><i class="fab fa-twitter"></i>
+                                <a href="https://twitter.com/Glowork" style="color: white"><i class="fab fa-twitter"></i>
                                     </a>
                             </li>
-                            <li><a href="https://www.linkedin.com/company/glowork/?originalSubdomain=sa"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/glowork/?originalSubdomain=sa" style="color: white"><i class="fab fa-linkedin-in"></i></a></li>
 
                         </ul>
                     </div>
@@ -335,16 +335,16 @@ Author:
                     <div class="footerNav jb_cover footer_border_displ">
                         <h5>features</h5>
                         <ul class="nav-widget">
-                            <li><a href="/admin"><i class="fa fa-square"></i>Admin Portal</a></li>
+                            <li><a href="/admin" style="color: white"><i class="fa fa-square"></i>Admin Portal</a></li>
 
      
-                            <li><a href="/dashboard/index"><i class="fa fa-square"></i>Client Portal
+                            <li><a href="/dashboard/index" style="color: white"><i class="fa fa-square"></i>Client Portal
 </a></li>
 
             
 
 
-                            <li><a href="#"><i class="fa fa-square"></i>Virtual Offices</a></li>
+                            <li><a href="#" style="color: white"><i class="fa fa-square"></i>Virtual Offices</a></li>
 
                         </ul>
                     </div>
@@ -354,7 +354,7 @@ Author:
                         <h5>browse</h5>
                         <ul class="nav-widget">
 
-                            <li><a href="/jobs"><i class="fa fa-square"></i>browse Jobs</a></li>
+                            <li><a href="/jobs" style="color: white"><i class="fa fa-square"></i>browse Jobs</a></li>
 
 
 
@@ -362,9 +362,9 @@ Author:
                     </div>
                 </div>
                
-                <div class="copyright_left"><i class="fa fa-copyright"></i> 2021 <a href="#">  Glowork.  </a> All Rights Reserved.
+           <!--     <div class="copyright_left"><i class="fa fa-copyright"></i> 2021 <a href="#">  Glowork.  </a> All Rights Reserved.
                 </div>
-
+            -->
                 <div class="clearfix"></div>
             </div>
             <!--/.row-->
@@ -384,7 +384,6 @@ Author:
         </div>
 -->
     </div>
-
     <!-- footer Wrapper End -->
 	 <!-- chat box Wrapper start 
 	<div id="chat-circle" class="btn btn-raised"> 
