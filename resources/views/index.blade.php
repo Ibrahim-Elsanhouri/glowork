@@ -264,7 +264,7 @@
                                 <li class="parent">
                                     <a href="/staff"><i class="fas fa-square"></i>Hiring Staff</a>
                                     <a href="/sessions"><i class="fas fa-square"></i>Coaching</a>
-                                     <a href="#"><i class="fas fa-square"></i>Our Events</a>
+                                     <a href="/events"><i class="fas fa-square"></i>Our Events</a>
                                 </li>
 
                             </ul>
@@ -468,6 +468,7 @@
 
     <!-- job banner wrapper end-->
     <!-- job list wrapper start-->
+    <!--
     <div class="jb_banner_list jb_cover">
         <div class="container">
             <div class="row">
@@ -521,7 +522,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- job list wrapper end-->
     <!-- job category wrapper start-->
     <div class="jb_category_wrapper jb_cover">
@@ -631,7 +632,7 @@
 
                         <h3>Our Story</h3>
 
-                        <p>#1 Glowork Recuriment  Software Platform</p>
+                        <p>Glowork Recuriment  Software Platform</p>
                     </div>
                     <div class="grow_next_text jb_cover">
                         <p>Glowork was formed in 2011 by three young Saudi entrepreneurs. Their aim was to increase diversity in the Saudi workforce by helping women find employment opportunities.
@@ -651,7 +652,7 @@ The vision is to expand in the Middle East and serve based on the requirements i
                 </div>
                 <div class="col-lg-6 col-md-12 col-12 col-sm-12">
                     <div class="grow_next_img jb_cover">
-                        <img src="images/our-story-1.png" width="540" height="334" class="img-responsive" alt="img">
+                        <img src="images/powerpoint.jpg" width="540" height="334" class="img-responsive" alt="img">
                     </div>
                 </div>
             </div>
