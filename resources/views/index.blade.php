@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <!--favicon-->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('images/glowork-logo.jpg') }}" />
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/logo.png') }}" />
 </head>
 
 <body>
@@ -41,7 +41,7 @@
     <!-- Top Scroll End -->
     <!-- cp navi wrapper Start -->
     <nav class="cd-dropdown  d-block d-sm-block d-md-block d-lg-none d-xl-none">
-        <h2><a href="/"> <span><img src="images/glowork-logo.jpg" alt="img"></span></a></h2>
+        <h2><a href="/"> <span><img src="{{ asset('images/logo.png') }}" alt="img"></span></a></h2>
         <a href="#0" class="cd-close">Close</a>
         <ul class="cd-dropdown-content">
             <li>
@@ -161,7 +161,7 @@
         <div class="container-fluid">
             <div class="cp_logo_wrapper">
                 <a href="/">
-                    <img src="{{ asset('images/glowork-logo.jpg') }}" width="185" height="45" alt="logo">
+                    <img src="{{ asset('images/logo.png') }}" width="185" height="45" alt="logo">
                 </a>
             </div>
             <!-- mobile menu area start -->
@@ -279,10 +279,27 @@
                     <!-- extra nav -->
                     <div class="extra-nav">
                         <div class="extra-cell">
+                       
                             <button id="quik-search-btn" type="button" class="site-button radius-xl"><i class="fas fa-search"></i></button>
+                            <button onclick="googleTranslateElementInit()" type="button" class="site-button radius-xl"><i class="fas fa-flag"></i></button>
+
                         </div>
                     </div>
-
+                    
+                    <div id="google_translate_element"></div>  
+                    <script type="text/javascript">  
+                        function googleTranslateElementInit() {  
+                            new google.translate.TranslateElement( 
+                                {pageLanguage: 'en'},  
+                                'google_translate_element' 
+                            );  
+                        }  
+                    </script>  
+                      
+                    <script type="text/javascript" src= 
+                "https://translate.google.com/translate_a/element.js? 
+                        cb=googleTranslateElementInit"> 
+                    </script> 
                     <!-- Quik search -->
                     <div class="dez-quik-search bg-primary-dark">
                         <form action="#">
@@ -344,17 +361,41 @@
 
 <!-- slider wrapper Start -->
     <div class="main_slider_wrapper slider-area jb_cover">
-     
-       
+     <!-- My Bootstrap -->
+
+     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner carousel-fade">
+         <div class="carousel-item active" data-mdb-interval="1500">
+            <img class="d-block w-100" src="https://www.lxry.travel/images/233/8b4c570670068075fd768a633a9f6fd8.jpg" alt="First slide">
+          </div> 
+          @foreach (\App\Slider::all() as $slider)
+          <div class="carousel-item" data-mdb-interval="1500">
+            <img class="d-block w-100" src="/{{ $slider->image }}" height="750" width="100%" alt="Second slide">
+          </div>
+@endforeach
+        
+        
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>     
+       <!-- -->
 
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
         
-            <div class="carousel-inner" role="listbox">
-             <div class="carousel-item active">
+          
+
+                @foreach (\App\Slider::all() as $slider)
+                <div class="carousel-item">
                     <div class="carousel-captions caption-2">
                         <div class="container">
                             <div class="row">
-<img src="https://www.lxry.travel/images/233/8b4c570670068075fd768a633a9f6fd8.jpg" width="100%" class="img-responsive" alt="img">
+<img src="/{{ $slider->image }}" width="100%" class="img-responsive" alt="img">
 
                                 
 
@@ -362,19 +403,7 @@
                         </div>
                     </div>
                 </div>
-
-           <div class="carousel-item">
-                    <div class="carousel-captions caption-2">
-                        <div class="container">
-                            <div class="row">
-<img src="http://glowork.net/wp-content/uploads/2020/01/Career-Counselling.png" width="100%" class="img-responsive" alt="img">
-
-                                
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
                
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
@@ -468,7 +497,7 @@
 
     <!-- job banner wrapper end-->
     <!-- job list wrapper start-->
-    <!--
+    
     <div class="jb_banner_list jb_cover">
         <div class="container">
             <div class="row">
@@ -476,7 +505,7 @@
                     <div class="jb_top_jobs_category jb_cover">
 
                         <h3><a href="#">HR</a></h3>
-                        <img src="images/s1.png" alt="img">
+                        <img src="images/HR.png" width="100" height="100" alt="img">
 
                     </div>
                 </div>
@@ -484,7 +513,7 @@
                     <div class="jb_top_jobs_category jb_cover">
 
                         <h3><a href="#">Software</a></h3>
-                        <img src="images/jb2.png" alt="img">
+                        <img src="images/IT.png" width="100" height="100" alt="img">
 
                     </div>
                 </div>
@@ -492,7 +521,7 @@
                     <div class="jb_top_jobs_category jb_cover">
 
                         <h3><a href="#">Accounting</a></h3>
-                        <img src="images/s5.png" alt="img">
+                        <img src="images/Service.png"  width="100" height="100" alt="img">
 
                     </div>
                 </div>
@@ -500,7 +529,7 @@
                     <div class="jb_top_jobs_category jb_cover">
 
                         <h3><a href="#">Education</a></h3>
-                        <img src="images/jb4.png" alt="img">
+                        <img src="images/hack.png" width="100" height="100" alt="img">
 
                     </div>
                 </div>
@@ -508,7 +537,7 @@
                     <div class="jb_top_jobs_category jb_cover">
 
                         <h3><a href="#">Medical</a></h3>
-                        <img src="images/jb5.png" alt="img">
+                        <img src="images/Medical.png" width="100" height="100" alt="img">
 
                     </div>
                 </div>
@@ -516,13 +545,13 @@
                     <div class="jb_top_jobs_category">
 
                         <h3><a href="#">Operation</a></h3>
-                        <img src="images/s6.png" alt="img">
+                        <img src="images/CS.png" width="100" height="100" alt="img">
 
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div> 
     <!-- job list wrapper end-->
     <!-- job category wrapper start-->
     <div class="jb_category_wrapper jb_cover">
@@ -3342,7 +3371,7 @@ The vision is to expand in the Middle East and serve based on the requirements i
                                         <div class="card-body">
 
                                             <div class="card_cntnt">
-                                                <p>How can i register my account ........................</p>
+                                                <p>You can register your account easily and get all jobs and sessions information</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3354,7 +3383,7 @@ The vision is to expand in the Middle East and serve based on the requirements i
                                     <div class="card_pagee" role="tab" id="heading2">
                                         <h5 class="h5-md">
 								       	    <a class="collapsed" data-toggle="collapse" href="#collapsethree" role="button" aria-expanded="false" aria-controls="collapsethree">
-								          How many sites can I use ?
+								          How to Apply jobs  ?
 
 								        	</a>
 								     	 </h5>
@@ -3364,7 +3393,7 @@ The vision is to expand in the Middle East and serve based on the requirements i
                                         <div class="card-body">
 
                                             <div class="card_cntnt">
-                                                <p>This is Photoshop's version of LoremProin gravida nibh vel velit auctor Ipsum. Proin gravida nibh vel velit auctor aliquet....</p>
+                                                <p>Apply Jobs , from Job Board and track your job form</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3407,7 +3436,7 @@ The vision is to expand in the Middle East and serve based on the requirements i
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover">
-                   <!--     <a href="#"><img src="{{ asset('images/glowork-logo.jpg') }}" width="225" height="105" alt="img"></a> -->
+                   <!--     <a href="#"><img src="{{ asset('images/logo.png') }}" width="225" height="105" alt="img"></a> -->
                         <ul class="footer_first_contact">
                             <li>
                           <!--      <i class="flaticon-location-pointer" style="color: white"></i> -->

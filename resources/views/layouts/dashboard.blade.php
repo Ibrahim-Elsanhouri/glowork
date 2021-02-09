@@ -276,9 +276,28 @@ Author:
                     <div class="extra-nav">
                         <div class="extra-cell">
                             <button id="quik-search-btn" type="button" class="site-button radius-xl"><i class="fas fa-search"></i></button>
+                            <button onclick="googleTranslateElementInit()" type="button" class="site-button radius-xl"><i class="fas fa-flag"></i></button>
+
                         </div>
                     </div>
+                    <div id="google_translate_element"></div>  
+                    <script type="text/javascript">  
+                        function googleTranslateElementInit() {  
+                            new google.translate.TranslateElement( 
+                                {pageLanguage: 'en'},  
+                                'google_translate_element' 
+                            );  
+                        }  
+                    </script>  
+                      
+                    <script type="text/javascript" src= 
+                "https://translate.google.com/translate_a/element.js? 
+                        cb=googleTranslateElementInit"> 
+                    </script> 
 
+
+
+                </div>
                     <!-- Quik search -->
                     <div class="dez-quik-search bg-primary-dark">
                         <form action="#">

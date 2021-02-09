@@ -46,7 +46,7 @@
 
 
 
-    <link rel="shortcut icon" type="image/png" href="{{ asset('images/glowork-logo.jpg') }}" />
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/logo.png') }}" />
 </head>
 
 <body>
@@ -61,7 +61,8 @@
     <!-- Top Scroll End -->
     <!-- cp navi wrapper Start -->
     <nav class="cd-dropdown  d-block d-sm-block d-md-block d-lg-none d-xl-none">
-        <h2><a href="/"> <span><img src="images/glowork-logo.jpg" alt="img"></span></a></h2>
+        <h2><a href="/"> <span><img src="{{ asset('images/logo.png') }}" alt="img"></span></a></h2>
+
         <a href="#0" class="cd-close">Close</a>
         <ul class="cd-dropdown-content">
             <li>
@@ -181,8 +182,12 @@
         <div class="container-fluid">
             <div class="cp_logo_wrapper">
                 <a href="/">
-                    <img src="{{ asset('images/glowork-logo.jpg') }}" width="185" height="45" alt="logo">
-                </a>
+                    <img src="{{ asset('images/logo.png') }}" width="185" height="45" alt="logo">
+
+                </a>    
+                
+          
+
             </div>
             <!-- mobile menu area start -->
             <header class="mobail_menu d-block d-sm-block d-md-block d-lg-none d-xl-none">
@@ -308,7 +313,43 @@
                     <div class="extra-nav">
                         <div class="extra-cell">
                             <button id="quik-search-btn" type="button" class="site-button radius-xl"><i class="fas fa-search"></i></button>
+                            <button onclick="googleTranslateElementInit()" type="button" class="site-button radius-xl"><i class="fas fa-flag"></i></button>
+                        </div></div>
+     
+                            <div id="google_translate_element"></div>  
+                            <script type="text/javascript">  
+                                function googleTranslateElementInit() {  
+                                    new google.translate.TranslateElement( 
+                                        {pageLanguage: 'en'},  
+                                        'google_translate_element' 
+                                    );  
+                                }  
+                            </script>  
+                              
+                            <script type="text/javascript" src= 
+                        "https://translate.google.com/translate_a/element.js? 
+                                cb=googleTranslateElementInit"> 
+                            </script> 
                         </div>
+
+
+                        <div id="google_translate_element"></div>  
+                        <script type="text/javascript">  
+                            function googleTranslateElementInit() {  
+                                new google.translate.TranslateElement( 
+                                    {pageLanguage: 'en'},  
+                                    'google_translate_element' 
+                                );  
+                            }  
+                        </script>  
+                          
+                        <script type="text/javascript" src= 
+                    "https://translate.google.com/translate_a/element.js? 
+                            cb=googleTranslateElementInit"> 
+                        </script> 
+
+
+
                     </div>
 
                     <!-- Quik search -->
@@ -337,7 +378,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover">
-                   <!--     <a href="#"><img src="{{ asset('images/glowork-logo.jpg') }}" width="225" height="105" alt="img"></a> -->
+                   <!--     <a href="#"><img src="{{ asset('images/logo.png') }}" width="225" height="105" alt="img"></a> -->
                         <ul class="footer_first_contact">
                             <li>
                           <!--      <i class="flaticon-location-pointer" style="color: white"></i> -->
