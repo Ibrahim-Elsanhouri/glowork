@@ -49,10 +49,10 @@
                     <input type="search" placeholder="Search...">
                 </form>
             </li>
-            <li>
+       <!--     <li>
                 <a href="/">home</a>
             
-            </li>
+            </li> -->
             <li class="has-children">
                 <a href="#">jobssssssss</a>
                 <ul class="cd-secondary-dropdown icon_menu is-hidden">
@@ -221,40 +221,14 @@
             <div class="jb_navigation_wrapper">
                 <div class="mainmenu d-xl-block d-lg-block d-md-none d-sm-none d-none">
                     <ul class="main_nav_ul">
-                        <li class="has-mega gc_main_navigation"><a href="/" class="gc_main_navigation active_class">home</a>
-             
+                 <!--       <li class="has-mega gc_main_navigation"><a href="/" class="gc_main_navigation active_class">home</a>
+                 -->
                         </li>
                                                       <li><a href="/aboutus" class="gc_main_navigation">About Glowork</a></li>
 
                       
                         <li class="has-mega gc_main_navigation"><a href="/jobs" class="gc_main_navigation">Jobs</a>
-                          <!--  <ul class="navi_2_dropdown">
-                                <li class="parent">
-                                    <a href="#"><i class="fas fa-square"></i>Jobs By Category<span><i class="fas fa-chevron-right"></i>
-									</span></a>
-                                    <ul class="dropdown-menu-right">
-                                    @foreach (App\Category::all() as $category )
-                                         <li>
-                                            <a href="{{ route('category.index' , $category->id) }}"> <i class="fas fa-square"></i>{{ $category->name }} </a>
-                                        </li>  
-                                    @endforeach
-                                 
-                                    </ul>
-                                </li>
-                                <li class="parent">
-                                    <a href="#"><i class="fas fa-square"></i>Jobs By City<span><i class="fas fa-chevron-right"></i>
-									</span></a>
-                                    <ul class="dropdown-menu-right">
-                                    @foreach (App\City::all() as  $city )
-                                       <li>
-                                            <a href="{{ route('city.index' , $city->id) }}"> <i class="fas fa-square"></i>{{ $city->name }} </a>
-                                        </li>  
-                                    @endforeach
-                                  
-                                    </ul>
-                                </li>
-
-                            </ul> -->
+                   
                         </li>
                         
      <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">Our Services
@@ -262,13 +236,18 @@
                             <ul class="navi_2_dropdown">
                             
                                 <li class="parent">
-                                    <a href="/staff"><i class="fas fa-square"></i>Recruitment</a>
+                                    <a href="/staff"><i class="fas fa-square"></i>Hiring Staff</a>
                                     <a href="/sessions"><i class="fas fa-square"></i>Coaching</a>
-                                     <a href="/events"><i class="fas fa-square"></i>Our Events</a>
+                                    
+                      <a href="/events"><i class="fas fa-square"></i>Our Events</a>
+                      <a href="/empreg"><i class="fas fa-square"></i>Empolyer Registeration</a>
+
                                 </li>
 
                             </ul>
                         </li>
+                        <li><a href="#" class="gc_main_navigation">Career Fair</a></li>
+
 
                         <li><a href="/contact" class="gc_main_navigation">contact</a></li>
 
@@ -497,7 +476,7 @@
 
     <!-- job banner wrapper end-->
     <!-- job list wrapper start-->
-    
+    <!--
     <div class="jb_banner_list jb_cover">
         <div class="container">
             <div class="row">
@@ -551,10 +530,12 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
+    
+-->
     <!-- job list wrapper end-->
     <!-- job category wrapper start-->
-    <div class="jb_category_wrapper jb_cover">
+   <!-- <div class="jb_category_wrapper jb_cover">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
@@ -562,10 +543,10 @@
 
                         <h3>Services that Impact</h3>
 
-                      <!--  <p>Your next level Product developemnt company assets</p> -->
+                        <p>Your next level Product developemnt company assets</p> 
                     </div>
                 </div>
-               <!--      <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
 
                <div class="jb_browse_category jb_cover">
                         <a href="#">
@@ -576,7 +557,7 @@
                             <p>Distance work software solution</p>
                         </a>
                     </div> 
-                </div> -->
+                </div> 
             <div class="col-lg-6 col-md-6 col-sm-12">
 
                     <div class="jb_browse_category jb_cover">
@@ -659,7 +640,15 @@
                 <div class="col-lg-6 col-md-12 col-12 col-sm-12">
                     <div class="jb_heading_wraper left_jb_jeading">
 
+
+                        <div class="text-center">
                         <h3>Our Story</h3>
+
+
+
+                            
+                        </div>
+
 
                         <p>Glowork Recuriment  Software Platform</p>
                     </div>
@@ -674,8 +663,8 @@ The vision is to expand in the Middle East and serve based on the requirements i
                             <br>
                         <div class="header_btn search_btn jb_cover">
 
-                            <a href="/aboutus">Read more</a>
-
+                         <!--   <a href="/aboutus">Read more</a>
+                         -->
                         </div>
                     </div>
                 </div>
@@ -3008,7 +2997,7 @@ The vision is to expand in the Middle East and serve based on the requirements i
     latest job wrapper end-->
     <!-- counter wrapper start-->
     <div class="counter_wrapper jb_cover">
-        <div class="counter_overlay"></div>
+       <div class="counter_overlay"></div> 
         <div class="container">
             <div class="row">
 
@@ -3340,6 +3329,7 @@ The vision is to expand in the Middle East and serve based on the requirements i
     <div class="blog_wrapper jb_cover">
         <div class="container">
             <div class="row">
+                <!--
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
                     <div class="jb_heading_wraper">
 
@@ -3423,6 +3413,12 @@ The vision is to expand in the Middle East and serve based on the requirements i
                     </div>
                 </div>
           
+
+            -->
+
+
+
+
             </div>
         </div>
     </div>
@@ -3430,30 +3426,15 @@ The vision is to expand in the Middle East and serve based on the requirements i
        <!-- footer Wrapper Start -->
 
     <!-- footer Wrapper Start -->
+    
     <div class="footer jb_cover">
-
         <div class="container">
+            <br>
+
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover">
-                   <!--     <a href="#"><img src="{{ asset('images/logo.png') }}" width="225" height="105" alt="img"></a> -->
-                        <ul class="footer_first_contact">
-                            <li>
-                          <!--      <i class="flaticon-location-pointer" style="color: white"></i> -->
-                               <a href="https://www.google.com/maps/place/Glowork+%7C+Brandbuzz/@24.6551959,46.718843,15z/data=!4m5!3m4!1s0x3e2f033c47513927:0x9805e62a08127499!8m2!3d24.744111!4d46.6577578" target="_blank()"> <p style="color: white">Riyadh Gallery Mall,
-                                    <br>GNo.A1-4thFloor-Office 410
-                                </p> </a>
-                            </li>
-                            <li><i class="flaticon-telephone" style="color:white"></i>
-                                <p style="color: white">966-11-2015533
-
-                                    <br>966-11-2014388</p>
-                            </li>
-                            <li><i class="flaticon-envelope" style="color:white"></i><a href="#"> </a>
-                                <a style="color: white" href= "mailto: info@glowork.net">info@glowork.net</a>
-                            </li>
-
-                        </ul>
+                     
 
                         <ul class="icon_list_news jb_cover">
                             <li>
@@ -3461,38 +3442,31 @@ The vision is to expand in the Middle East and serve based on the requirements i
                                     </a>
                             </li>
                             <li><a href="https://www.linkedin.com/company/glowork/?originalSubdomain=sa" style="color: white"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/glowork/?originalSubdomain=sa" style="color: white"><i class="fab fa-snapchat"></i></a></li>
+                            <li><a href="https://www.instagram.com/glowork/" style="color: white"><i class="fab fa-instagram"></i></a></li>
+
 
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover footer_border_displ">
-                        <h5>features</h5>
-                        <ul class="nav-widget">
-                            <li><a href="/admin" style="color: white"><i class="fa fa-square"></i>Admin Portal</a></li>
+                        <br><br>
+                        <h6 style="color:white; ">All rights reserved by Glowork</h6>
 
-     
-                            <li><a href="/dashboard/index" style="color: white"><i class="fa fa-square"></i>Client Portal
-</a></li>
-
-            
-
-
-                            <li><a href="#" style="color: white"><i class="fa fa-square"></i>Virtual Offices</a></li>
-
-                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="footerNav jb_cover footer_border_displ">
-                        <h5>browse</h5>
-                        <ul class="nav-widget">
+                        <ul class="icon_list_news jb_cover">
+                            <li>
+                 
+                                <a href="https://www.google.com.sa/maps/place/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+%D8%AC%D8%A7%D9%84%D9%8A%D8%B1%D9%8A%E2%80%AD/@24.7436131,46.6602408,17z/data=!3m1!4b1!4m5!3m4!1s0x3e2ee2a42a505dc5:0x2f82135cbdf86d1f!8m2!3d24.7436082!4d46.6580521" target="_blank" style="color: white"><i class="flaticon-location-pointer"></i>
+                                    </a>
+                            </li>
 
-                            <li><a href="/jobs" style="color: white"><i class="fa fa-square"></i>browse Jobs</a></li>
 
-
-
-                        </ul>
+                        </ul>                       
                     </div>
                 </div>
                

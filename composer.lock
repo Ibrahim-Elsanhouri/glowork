@@ -70,22 +70,23 @@
         },
         {
             "name": "crocodicstudio/crudbooster",
-            "version": "v5.5.3",
+            "version": "v5.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/crocodic-studio/crudbooster.git",
-                "reference": "b1f42df64b52514c6640f8cc48de53e84a216f31"
+                "reference": "22d54df0a453c7e20e66cb40534f7ab853430187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/crocodic-studio/crudbooster/zipball/b1f42df64b52514c6640f8cc48de53e84a216f31",
-                "reference": "b1f42df64b52514c6640f8cc48de53e84a216f31",
+                "url": "https://api.github.com/repos/crocodic-studio/crudbooster/zipball/22d54df0a453c7e20e66cb40534f7ab853430187",
+                "reference": "22d54df0a453c7e20e66cb40534f7ab853430187",
                 "shasum": ""
             },
             "require": {
                 "barryvdh/laravel-dompdf": "0.8.*",
                 "doctrine/dbal": "~2.3",
                 "intervention/imagecache": "^2.3",
+                "laravel/framework": "^6.18|^7.28|^8.34",
                 "maatwebsite/excel": "^3.1",
                 "php": "^7.2"
             },
@@ -122,7 +123,7 @@
                 "generator",
                 "laravel"
             ],
-            "time": "2020-11-08T15:44:40+00:00"
+            "time": "2021-03-25T15:35:39+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",

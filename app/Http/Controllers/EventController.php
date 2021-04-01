@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Event;
 use App\Category;
 use App\Job;
+use App\Empreg;
 
 class EventController extends Controller
 {
@@ -19,4 +20,18 @@ class EventController extends Controller
 
         return view('events.index' , compact('events' , 'categories' , 'jobs')); 
     }
+
+
+    public function empreg(){
+       // Empreg::create($request->all()); 
+        return view('empreg'); 
+    }
+
+
+    public function empregStore(Request $request){
+       $empreg  =   Empreg::create($request->all()); 
+       return redirect('/empreg')->with('danger' , 'Your Form has been submitted successfuly'); 
+
+
+        }
 }

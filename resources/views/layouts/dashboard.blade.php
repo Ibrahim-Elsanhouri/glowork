@@ -312,97 +312,71 @@ Author:
 
   @yield('content')
 
+  <div class="footer jb_cover">
+    <div class="container">
+        <br>
 
- 
-    <!-- footer Wrapper Start -->
-    <div class="footer jb_cover">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="footerNav jb_cover">
+                 
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="footerNav jb_cover">
-                   <!--     <a href="#"><img src="{{ asset('images/glowork-logo.jpg') }}" width="225" height="105" alt="img"></a> -->
-                        <ul class="footer_first_contact">
-                            <li>
-                          <!--      <i class="flaticon-location-pointer" style="color: white"></i> -->
-                          <a href="https://www.google.com/maps/place/Glowork+%7C+Brandbuzz/@24.6551959,46.718843,15z/data=!4m5!3m4!1s0x3e2f033c47513927:0x9805e62a08127499!8m2!3d24.744111!4d46.6577578" target="_blank()"> <p style="color: white">Riyadh Gallery Mall,
-                                    <br>GNo.A1-4thFloor-Office 410
-                                </p> </a>
-                            </li>
-                            <li><i class="flaticon-telephone" style="color:white"></i>
-                                <p style="color: white">966-11-2015533
+                    <ul class="icon_list_news jb_cover">
+                        <li>
+                            <a href="https://twitter.com/Glowork" style="color: white"><i class="fab fa-twitter"></i>
+                                </a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/company/glowork/?originalSubdomain=sa" style="color: white"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/glowork/?originalSubdomain=sa" style="color: white"><i class="fab fa-snapchat"></i></a></li>
+                        <li><a href="https://www.instagram.com/glowork/" style="color: white"><i class="fab fa-instagram"></i></a></li>
 
-                                    <br>966-11-2014388</p>
-                            </li>
-                            <li><i class="flaticon-envelope" style="color:white"></i><a href="#"> </a>
-                                <a style="color: white" href= "mailto: info@glowork.net">info@glowork.net</a>
-                            </li>
 
-                        </ul>
-
-                        <ul class="icon_list_news jb_cover">
-                            <li>
-                                <a href="https://twitter.com/Glowork" style="color: white"><i class="fab fa-twitter"></i>
-                                    </a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/company/glowork/?originalSubdomain=sa" style="color: white"><i class="fab fa-linkedin-in"></i></a></li>
-
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="footerNav jb_cover footer_border_displ">
-                        <h5>features</h5>
-                        <ul class="nav-widget">
-                            <li><a href="/admin" style="color: white"><i class="fa fa-square"></i>Admin Portal</a></li>
-
-     
-                            <li><a href="/dashboard/index" style="color: white"><i class="fa fa-square"></i>Client Portal
-</a></li>
-
-            
-
-
-                            <li><a href="#" style="color: white"><i class="fa fa-square"></i>Virtual Offices</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="footerNav jb_cover footer_border_displ">
-                        <h5>browse</h5>
-                        <ul class="nav-widget">
-
-                            <li><a href="/jobs" style="color: white"><i class="fa fa-square"></i>browse Jobs</a></li>
-
-
-
-                        </ul>
-                    </div>
-                </div>
-               
-           <!--     <div class="copyright_left"><i class="fa fa-copyright"></i> 2021 <a href="#">  Glowork.  </a> All Rights Reserved.
-                </div>
-            -->
-                <div class="clearfix"></div>
             </div>
-            <!--/.row-->
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="footerNav jb_cover footer_border_displ">
+                    <br><br>
+                    <h6 style="color:white; ">All rights reserved by Glowork</h6>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="footerNav jb_cover footer_border_displ">
+                    <ul class="icon_list_news jb_cover">
+                        <li>
+             
+                            <a href="https://www.google.com.sa/maps/place/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+%D8%AC%D8%A7%D9%84%D9%8A%D8%B1%D9%8A%E2%80%AD/@24.7436131,46.6602408,17z/data=!3m1!4b1!4m5!3m4!1s0x3e2ee2a42a505dc5:0x2f82135cbdf86d1f!8m2!3d24.7436082!4d46.6580521" target="_blank" style="color: white"><i class="flaticon-location-pointer"></i>
+                                </a>
+                        </li>
+
+
+                    </ul>                       
+                </div>
+            </div>
+           
+       <!--     <div class="copyright_left"><i class="fa fa-copyright"></i> 2021 <a href="#">  Glowork.  </a> All Rights Reserved.
+            </div>
+        -->
+            <div class="clearfix"></div>
         </div>
-        <!--/.container-->
-        <!-- Waves Java script
-        <div class="waveWrapper waveAnimation">
-            <div class="waveWrapperInner bgTop gradient-color">
-                <div class="wave waveTop"></div>
-            </div>
-            <div class="waveWrapperInner bgMiddle">
-                <div class="wave waveMiddle"></div>
-            </div>
-            <div class="waveWrapperInner bgBottom">
-                <div class="wave waveBottom"></div>
-            </div>
-        </div>
--->
+        <!--/.row-->
     </div>
+    <!--/.container-->
+    <!-- Waves Java script
+    <div class="waveWrapper waveAnimation">
+        <div class="waveWrapperInner bgTop gradient-color">
+            <div class="wave waveTop"></div>
+        </div>
+        <div class="waveWrapperInner bgMiddle">
+            <div class="wave waveMiddle"></div>
+        </div>
+        <div class="waveWrapperInner bgBottom">
+            <div class="wave waveBottom"></div>
+        </div>
+    </div>
+-->
+</div>
     <!-- footer Wrapper End -->
 	 <!-- chat box Wrapper start 
 	<div id="chat-circle" class="btn btn-raised"> 

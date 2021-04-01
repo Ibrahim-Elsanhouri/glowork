@@ -182,9 +182,173 @@ We celebrate our female entrepreneurs who have defied odds and are nurturing via
 
                     </div>
                 </div>
+
+            
+
+                    <div class="col-md-3">
+                      <div class="thumbnail">
+                          <div class="text-center">
+                            <a href="images/Khalid-Sulaiman-Al-Saleh.png">
+                                <img src="images/Khalid-Sulaiman-Al-Saleh.png" alt="Nature" style="width:80%">
+                                <div class="caption">
+                                    <div class="text-center">
+                                        <p>CEO</p>
+    
+                                        <p><a href="mailto: ks@glowork.net">Khalid Sulaiman Al-Saleh</a></p>
+    
+    
+                                    </div>
+
+
+
+                          </div>
+                      
+                        
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="thumbnail">
+                          <div class="text-center">
+
+
+                            <a href="images/women-icon.png">
+                                <img src="images/women-icon.png" alt="Nature" style="width:80%">
+                                <div class="caption">
+                                    <div class="text-center">
+      
+                                      <p>Project and Business Development Manager</p>
+                                      <p><a href="mailto: Ebtiehal.AlBakr@glowork.net">Ebtiehal AlBakr</a></p>
+          
+      
+      
+                                    </div>
+
+                          </div>
+               
+                      
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="thumbnail">
+                          <div class="text-center">
+
+                            <a href="/w3images/fjords.jpg">
+                                <img src="images/women-icon.png" alt="Nature" style="width:80%">
+                                <div class="caption">
+                                    <div class="text-center">
+    
+    
+                                        <p>Marketing Communication Specialist</p>
+                                        <p><a href="mailto: Nujud.Algammash@glowork.net">Nujud Algammash</a></p>
+    
+                                    </div>
+
+
+                          </div>
+         
+
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <div class="text-center">
+                                <a href="/images/women-icon.png">
+                                    <img src="images/women-icon.png" alt="Nature" style="width:80%">
+                                <div class="caption">
+                                    <div class="text-center">
+    
+                                        <p>PMO</p>
+                                        <p><a href="mailto: Noura.AlAmmar@glowork.net">Raeda Alqahtani</a></p>
+    
+    
+                                    </div>
+
+
+
+                            </div>
+                   
+                
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <!--  
+Khalid Al-Saleh ks@glowork.net
+
+ 
+
+ 
+
+Raeda Alqahtani Raeda.Alqahtani@glowork.net -->
+                 
+<br>
+                      <div class="col-md-3">
+                        <div class="thumbnail">
+                            <div class="text-center">
+                                <a href="/images/women-icon.png">
+                                    <img src="images/women-icon.png"  style="width:80%">
+                                <div class="caption">
+                                    <div class="text-center">
+    
+                                        <p>Recruitment Manager</p>
+                                        <p><a href="mailto: noura.alqahtani@glowork.net">Noura Alqahtani </a></p>
+    
+                                    </div>
+
+
+                            </div>
+                  
+                              
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                  
+                      <div class="col-md-3">
+                        <div class="thumbnail">
+                            <div class="text-center">
+
+                                <a href="/images/women-icon.png">
+                                    <img src="images/women-icon.png"  style="width:80%">
+                                <div class="caption">
+                                    <div class="text-center">
+    
+                                        <p>Business Development Senior Officer</p>
+                                        <p><a href="mailto: Noura.AlAmmar@glowork.net">Noura AlAmmar</a></p>
+    
+                                    </div>
+
+                            </div>
+                       
+                              
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                  
+
+                   
+
+
+
+
+
+
+
+
+                <!-- 
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="team_slider_wrapper jb_cover">
+                  <div class="team_slider_wrapper jb_cover"> 
                         <div class="owl-carousel owl-theme">
+                        -->   
+                        <!--
                             <div class="item">
 
                                 <div class="team_slider_content jb_cover">
@@ -197,8 +361,10 @@ We celebrate our female entrepreneurs who have defied odds and are nurturing via
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="item">
+                        -->
+                           
+                        <!--
+                        <div class="item">
 
                                 <div class="team_slider_content jb_cover">
                                     <div class="team_slider_img_box jb_cover">
@@ -210,8 +376,8 @@ We celebrate our female entrepreneurs who have defied odds and are nurturing via
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="item">
+                        -->
+<!--                            <div class="item">
 
                                 <div class="team_slider_content jb_cover">
                                     <div class="team_slider_img_box jb_cover">
@@ -247,7 +413,9 @@ We celebrate our female entrepreneurs who have defied odds and are nurturing via
                                         <h2><a href="mailto: Noura.AlAmmar@glowork.net">Noura AlAmmar</a></h2>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
+<!--
+
                                    <div class="item">
 
                                 <div class="team_slider_content jb_cover">
@@ -261,9 +429,15 @@ We celebrate our female entrepreneurs who have defied odds and are nurturing via
                                 </div>
                             </div>
 
-                        </div>
+                        -->
+
+<!--
+                       </div> 
                     </div>
                 </div>
+            -->
+
+
             </div>
         </div>
     </div>

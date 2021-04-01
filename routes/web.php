@@ -69,4 +69,6 @@ Route::middleware('auth')->prefix('dashboard')->group(function () {
 
 
    Route::get('/events' , 'EventController@index')->name('event.index'); 
+   Route::get('/empreg' , 'EventController@empreg')->name('event.empreg'); 
+   Route::post('/empreg_store' , 'EventController@empregStore')->name('event.empregStore'); 
 
