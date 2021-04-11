@@ -246,7 +246,7 @@
 
                             </ul>
                         </li>
-                        <li><a href="#" class="gc_main_navigation">Career Fair</a></li>
+                        <li><a href="/careerFair" class="gc_main_navigation">Career Fair</a></li>
 
 
                         <li><a href="/contact" class="gc_main_navigation">contact</a></li>

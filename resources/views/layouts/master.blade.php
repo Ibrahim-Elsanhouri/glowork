@@ -70,10 +70,10 @@
                     <input type="search" placeholder="Search...">
                 </form>
             </li>
-            <li>
+           <!-- <li>
                 <a href="/">home</a>
             
-            </li>
+            </li> -->
             <li class="has-children">
                 <a href="#">jobssssssss</a>
                 <ul class="cd-secondary-dropdown icon_menu is-hidden">
@@ -303,7 +303,7 @@
                         </li>
 
 
-                        <li><a href="#" class="gc_main_navigation">Career Fair</a></li>
+                        <li><a href="/careerFair" class="gc_main_navigation">Career Fair</a></li>
 
                         <li><a href="/contact" class="gc_main_navigation">contact</a></li>
 
